@@ -48,16 +48,100 @@
             </button>
             <div
               class="collapse navbar-collapse mx-auto"
-              id="navbarSupportedContent"
+              id="navbarSupportedContent "
             >
               <ul class="navbar-nav new-menu">
-                <li><a href="#">關於葳龍</a></li>
-                <li><a href="#">最新消息</a></li>
-                <li><a href="#">代工項目</a></li>
-                <li><a href="#">影音瀏覽</a></li>
-                <li><a href="#">產品介紹</a></li>
-                <li><a href="#">EDM</a></li>
-                <li><a href="#">聯絡我們</a></li>
+                <li class="menu-item" class="dropdown">
+                  <a
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    關於葳龍
+                  </a>
+                  <ul class="dropdown-menu dropdown-box rounded-0">
+                    <li><a href="#">經營理念</a></li>
+                    <li>
+                      <a href="#">千坪GMP認證工廠</a>
+                    </li>
+                    <li>
+                      <a href="#">專業研發技術團隊</a>
+                    </li>
+                    <li>
+                      <a href="#">360度服務零死角</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu-item" class="dropdown">
+                  <a
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    最新消息
+                  </a>
+                  <ul class="dropdown-menu dropdown-box rounded-0">
+                    <li><a href="#">分類一</a></li>
+                    <li>
+                      <a href="#">分類二</a>
+                    </li>
+                    <li>
+                      <a href="#">分類三</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu-item" class="dropdown">
+                  <a
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    代工項目
+                  </a>
+                  <ul
+                    class="dropdown-menu dropdown-box dropdown-box-big rounded-0 d-flex"
+                  >
+                    <ul class="dropdown-little-box">
+                      <li><a href="#">洗 髮</a></li>
+                      <li><a href="#">護 髮</a></li>
+                      <li><a href="#">頭皮養護</a></li>
+                      <li><a href="#">造型護理</a></li>
+                      <li><a href="#">護 髮 油</a></li>
+                      <li><a href="#">職業洗護</a></li>
+                      <li><a href="#">香氛髮品</a></li>
+                      <li>
+                        <a href="#">多元化客製 清潔用品</a>
+                      </li>
+                    </ul>
+                    <ul class="dropdown-little-box">
+                      <li><a href="#">精 華 液</a></li>
+                      <li><a href="#">面 膜</a></li>
+                      <li><a href="#">乳 霜</a></li>
+                      <li><a href="#">臉部防曬</a></li>
+                      <li><a href="#">洗卸產品</a></li>
+                      <li><a href="#">時空膠囊</a></li>
+                      <li><a href="#">脫 毛 膏</a></li>
+                      <li><a href="#">抗痘凝膠</a></li>
+                      <li>
+                        <a href="#">多元化客製 保養品</a>
+                      </li>
+                    </ul>
+                    <ul class="dropdown-little-box">
+                      <li><a href="#">沐 浴 乳</a></li>
+                      <li><a href="#">身 體 乳</a></li>
+                      <li><a href="#">洗 手 乳</a></li>
+                      <li><a href="#">清潔用品</a></li>
+                      <li><a href="#">香氛噴霧</a></li>
+                    </ul>
+                  </ul>
+                </li>
+                <li class="menu-item"><a href="#">影音瀏覽</a></li>
+                <li class="menu-item"><a href="#">產品介紹</a></li>
+                <li class="menu-item"><a href="#">EDM</a></li>
+                <li class="menu-item"><a href="#">聯絡我們</a></li>
               </ul>
               <div class="topShopCart">
                 <img src="" alt="" />
@@ -67,13 +151,15 @@
                 role="search"
               >
                 <input
-                  class="form-control rounded-0"
+                  class="form-control"
                   type="search"
                   placeholder="search.."
                   aria-label="Search"
                 />
-                <button class="search-btn-nav" type="submit">
-                  <img src="" alt="放大鏡" />
+                <button class="search-btn-nav" type="submit" type="submit">
+                  <div class="search-btn-pic">
+                    <img src="./src/web/icon/search.svg" alt="放大鏡" />
+                  </div>
                 </button>
               </form>
             </div>
