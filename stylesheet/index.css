@@ -1,4 +1,8 @@
 .wrap {
+  width: 100%;
+  font-family: "Libre Baskerville", serif;
+  /* font-family: "Montserrat", sans-serif;
+  font-family: "Noto Sans TC", sans-serif; */
 }
 /* hb.icon */
 .menu-button-container {
@@ -20,7 +24,7 @@
 .menu-button::before,
 .menu-button::after {
   display: block;
-  background-color: #ffffff;
+  background-color: #1d1d1d;
   position: absolute;
   height: 3px;
   width: 26px;
@@ -51,9 +55,57 @@
   margin-top: 0px;
   transform: rotate(-45deg);
 }
+.navbar-toggler {
+  color: none !;
+}
 /* FOR漢堡圖示show/hide */
 @media (max-width: 992px) {
   .menu-button-container {
     display: flex;
+  }
+}
+
+/* navbar */
+.navbar {
+  width: 100%;
+  height: 124px;
+}
+.logopic {
+  width: 17.3056vw;
+  margin-left: 5vw;
+}
+.logopic img {
+  width: 100%;
+  vertical-align: top;
+}
+.new-menu {
+  margin: auto;
+}
+.new-menu > li a {
+  font-size: 1.042vw;
+  color: #1d1d1d;
+  margin-right: 1.6062vw;
+  margin-left: 1.6062vw;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+.scerch-section {
+  width: 195px;
+  height: 44px;
+}
+.scerch-section input {
+  flex-grow: 1;
+}
+.search-btn-nav {
+  flex-grow: 44px;
+}
+@media (width<992px) {
+  .new-menu > li a {
+    font-size: 20px;
+  }
+  .logopic {
+    width: 210px;
+    margin-left: 25px;
   }
 }
