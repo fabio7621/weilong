@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="葳龍貿易有限公司" />
+    <meta name="description" content="葳龍貿易有限公司" />
+    <title>葳龍貿易有限公司</title>
+    <!-- 字體 -->
+
+    <!-- BS-CSS    -->
+    <link rel="stylesheet" href="./stylesheet/bootstrap.css" />
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="./stylesheet/reset.css" />
+    <link rel="stylesheet" href="./stylesheet/index.css" />
+    <link rel="stylesheet" href="./stylesheet/main.css" />
+  </head>
+
+  <body>
+    <div class="wrap">
+      <!-- <div class="top-nav-item-P d-flex d-md-none">
+        <a href="./member.html" class="top-nav-item-pic">
+          <img class="w-100" src="./img/svg/menber.svg" alt="member" />
+        </a>
+        <a href="./shoppingcart.html" class="top-nav-item-pic">
+          <img class="w-100" src="./img/svg/shopping_car.svg" alt="cart" />
+        </a>
+        <p id="quantity">0</p>
+      </div> -->
+      <nav class="navbar navbar-expand-md position-relative p-3">
+        <div class="container-fluid">
+          <h1 class="logopic navbar-brand">
+            <a href="./index.html">
+              <img src="./web/icon/logo.svg" alt="logo" />
+            </a>
+          </h1>
+          <button
+            class="navbar-toggler border-0"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <input id="menu-toggle" type="checkbox" />
+            <label class="menu-button-container" for="menu-toggle">
+              <div class="menu-button"></div>
+            </label>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav new-menu">
+              <li><a href="./about.html">關於捷淇</a></li>
+              <li><a href="./newproduct.html">最新產品</a></li>
+              <li><a href="./product.html">產品介紹</a></li>
+              <li><a href="./contact.html">聯絡我們</a></li>
+            </ul>
+
+            <form class="d-flex scerch-con position-relative" role="search">
+              <input
+                class="form-control rounded-0"
+                type="search"
+                placeholder="search.."
+                aria-label="Search"
+              />
+              <button class="search-btn-nav" type="submit">
+                <img src="./img/svg/search.svg" alt="放大鏡" />
+              </button>
+              <!-- 會員 -->
+              <div class="top-nav-item d-none d-md-flex">
+                <a href="./member.html" class="top-nav-item-pic">
+                  <img class="w-100" src="./img/svg/menber.svg" alt="member" />
+                </a>
+                <a href="./shoppingcart.html" class="top-nav-item-pic">
+                  <img
+                    class="w-100"
+                    src="./img/svg/shopping_car.svg"
+                    alt="cart"
+                  />
+                </a>
+                <p id="quantity">0</p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- banner區塊 -->
+      <section class="banner-main w-100">
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./img/web/home/banner_1.png"
+                class="d-none w-100 d-md-block"
+                alt="bannerB"
+              />
+              <img
+                src="./img/phone/home/phone_banner_1.png"
+                class="d-block w-100 d-md-none"
+                alt="bannerR"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./img/web/home/banner_2.png"
+                class="d-none w-100 d-md-block"
+                alt="bannerB"
+              />
+              <img
+                src="./img/phone/home/phone_banner_2.png"
+                class="d-block w-100 d-md-none"
+                alt="bannerR"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- ^^^banner區塊^^^ -->
+
+      <footer class="footer-main"></footer>
+
+      <div class="copyright">
+        <div class="copyright-box">
+          <p>
+            Copyright &copy; 2023 捷淇食品 版權所有
+            <span
+              >Wedsite designed by
+              <a
+                class="renu-http"
+                href="https://www.renu.com.tw/
+              "
+                >RENU</a
+              ></span
+            >
+          </p>
+        </div>
+      </div>
+      <div class="scroll-box" id="scrollBtn">
+        <!-- background-img -->
+      </div>
+    </div>
+    <!-- 關於區塊 -->
+    <div class="about-box"></div>
+    <!-- 底部 -->
+    <!-- bs -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+      integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./js/scroll-top.js"></script>
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  </body>
+</html>
