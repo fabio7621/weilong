@@ -3748,8 +3748,8 @@ fieldset:disabled .btn {
 }
 .dropdown-item:hover,
 .dropdown-item:focus {
-  color: var(--bs-dropdown-link-hover-color);
-  background-color: var(--bs-dropdown-link-hover-bg);
+  color: none;
+  background-color: none;
 }
 .dropdown-item.active,
 .dropdown-item:active {
