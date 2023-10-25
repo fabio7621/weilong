@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat:wght@400;500;600&family=Noto+Sans+TC:wght@400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,700;1,800&family=Noto+Sans+TC:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
     <!-- icon -->
@@ -43,7 +43,7 @@
               </a>
             </h1>
             <button
-              class="navbar-toggler"
+              class="navbar-toggler hb-layout"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent"
@@ -55,6 +55,7 @@
               <label class="menu-button-container" for="menu-toggle">
                 <div class="menu-button"></div>
               </label>
+              <p id="hb-text">MENU</p>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <!--pc navbar -->
@@ -538,30 +539,32 @@
                   >
                 </li>
               </ul>
-              <div class="top-cart-item position-relative">
-                <span class="material-symbols-outlined"> shopping_cart </span>
-                <div
-                  class="cart-num position-absolute d-flex flex-column align-items-center justify-content-center"
-                >
-                  <p>0</p>
-                </div>
-              </div>
-              <form
-                class="d-flex scerch-section position-relative"
-                role="search"
-              >
-                <input
-                  class="form-control"
-                  type="search"
-                  placeholder="search.."
-                  aria-label="Search"
-                />
-                <button class="search-btn-nav" type="submit" type="submit">
-                  <div class="search-btn-pic">
-                    <img src="./src/web/icon/search.svg" alt="放大鏡" />
+              <li class="topbar-item d-flex">
+                <div class="top-cart-item position-relative">
+                  <span class="material-symbols-outlined"> shopping_cart </span>
+                  <div
+                    class="cart-num position-absolute d-flex flex-column align-items-center justify-content-center"
+                  >
+                    <p>0</p>
                   </div>
-                </button>
-              </form>
+                </div>
+                <form
+                  class="d-flex scerch-section position-relative"
+                  role="search"
+                >
+                  <input
+                    class="form-control"
+                    type="search"
+                    placeholder="search.."
+                    aria-label="Search"
+                  />
+                  <button class="search-btn-nav" type="submit" type="submit">
+                    <div class="search-btn-pic">
+                      <img src="./src/web/icon/search.svg" alt="放大鏡" />
+                    </div>
+                  </button>
+                </form>
+              </li>
             </div>
           </div>
         </nav>
@@ -648,7 +651,8 @@
       <section class="section-team-gmp w-100">
         <div class="section-team-gmp-main">
           <div class="section-team-gmp-title w-100">
-            <h3>GMP工廠認證 / 專業研發技能團隊</h3>
+            <h3 class="d-none d-md-block">GMP工廠認證 / 專業研發技能團隊</h3>
+            <h3 class="d-block d-md-none">GMP工廠認證<br />專業研發技能團隊</h3>
           </div>
           <div
             class="section-team-gmp-box d-flex flex-wrap justify-content-between"
@@ -680,7 +684,7 @@
           <!-- picture&content -->
           <div class="section-index-about-pic position-relative">
             <div
-              class="section-index-about-title w-100 d-block d-md-none position-absolute"
+              class="section-index-about-title d-block d-md-none position-absolute"
             >
               <h3>ABOUT</h3>
             </div>
@@ -728,24 +732,250 @@
           </div>
         </div>
       </section>
-      <footer class="footer-main"></footer>
-
-      <div class="copyright">
-        <div class="copyright-box">
-          <p>
-            Copyright &copy; 2023 捷淇食品 版權所有
-            <span
-              >Wedsite designed by
-              <a
-                class="renu-http"
-                href="https://www.renu.com.tw/
-              "
-                >RENU</a
-              ></span
-            >
-          </p>
+      <!-- OEMstep -->
+      <section class="section-oem-step">
+        <div class="section-oem-step-main">
+          <div class="section-oem-step-title">
+            <h3>代 / 工 / 流 / 程</h3>
+          </div>
+          <div
+            class="section-oem-step-box d-flex flex-wrap justify-content-between"
+          >
+            <div class="section-oem-step-item">
+              <div class="step-arrow">
+                <img src="./src/web/icon/home_arrow.svg" alt="" />
+              </div>
+              <div class="section-oem-step-pic">
+                <img src="./src/web/home/pic_5.svg" alt="pic" />
+              </div>
+              <p>1.需求提案<br />品項/功效/價格</p>
+            </div>
+            <div class="section-oem-step-item">
+              <div class="step-arrow d-none d-md-block">
+                <img src="./src/web/icon/home_arrow.svg" alt="" />
+              </div>
+              <div class="section-oem-step-pic">
+                <img src="./src/web/home/pic_6.svg" alt="pic" />
+              </div>
+              <p>2.商品規劃<br />形象設定 / 成分訴求</p>
+            </div>
+            <div class="section-oem-step-item">
+              <div class="step-arrow">
+                <img src="./src/web/icon/home_arrow.svg" alt="" />
+              </div>
+              <div class="section-oem-step-pic">
+                <img src="./src/web/home/pic_7.svg" alt="pic" />
+              </div>
+              <p>3.商品開發<br />方案確認 / 包裝設計 打樣測試</p>
+            </div>
+            <div class="section-oem-step-item">
+              <div class="step-arrow d-none d-md-block">
+                <img src="./src/web/icon/home_arrow.svg" alt="" />
+              </div>
+              <div class="section-oem-step-pic">
+                <img src="./src/web/home/pic_8.svg" alt="pic" />
+              </div>
+              <p>4.生產製造<br />調製/填充/包裝</p>
+            </div>
+            <div class="section-oem-step-item">
+              <div class="step-arrow">
+                <img src="./src/web/icon/home_arrow.svg" alt="" />
+              </div>
+              <div class="section-oem-step-pic">
+                <img src="./src/web/home/pic_9.svg" alt="pic" />
+              </div>
+              <p>5.品質控管<br />包材品質/半成品品質 原料品質</p>
+            </div>
+            <div class="section-oem-step-item">
+              <div class="step-arrow d-none d-md-block">
+                <img src="./src/web/icon/home_arrow.svg" alt="" />
+              </div>
+              <div class="section-oem-step-pic">
+                <img src="./src/web/home/pic_10.svg" alt="pic" />
+              </div>
+              <p>6.出 貨</p>
+            </div>
+            <div class="section-oem-step-item">
+              <div class="section-oem-step-pic">
+                <img src="./src/web/home/pic_11.svg" alt="pic" />
+              </div>
+              <p>7.售後服務</p>
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
+      <!-- section-news -->
+      <section class="section-news">
+        <div class="section-news-main">
+          <div class="section-news-title">
+            <p>What's News</p>
+            <h3>最 / 新 / 消 / 息</h3>
+          </div>
+          <div class="row justify-content-between pb-5">
+            <div class="col-12 col-md-4">
+              <div class="section-news-item">
+                <div class="section-news-pic">
+                  <img src="./src/web/home/news_1.png" alt="pic" />
+                </div>
+                <div class="section-news-date d-flex w-100 align-bottom">
+                  <p class="section-news-year">20<br />23</p>
+                  <p class="section-news-day">07.07</p>
+                </div>
+                <div class="section-news-date-content w-100">
+                  <p>新網站上線囉!</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="section-news-item">
+                <div class="section-news-pic">
+                  <img src="./src/web/home/news_2.png" alt="pic" />
+                </div>
+                <div class="section-news-date d-flex w-100 align-bottom">
+                  <p class="section-news-year">20<br />23</p>
+                  <p class="section-news-day">09.24</p>
+                </div>
+                <div class="section-news-date-content w-100">
+                  <p>改善肌膚粗糙因肌膚的缺水而所產生的細紋</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="section-news-item">
+                <div class="section-news-pic">
+                  <img src="./src/web/home/news_3.png" alt="pic" />
+                </div>
+                <div class="section-news-date d-flex w-100 align-bottom">
+                  <p class="section-news-year">20<br />23</p>
+                  <p class="section-news-day">09.24</p>
+                </div>
+                <div class="section-news-date-content w-100">
+                  <p>薰衣草可獲得舒壓及安寧的睡眠</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section-news-more d-flex justify-content-center">
+          <button
+            href="https://www.google.com.tw/?hl=zh_TW"
+            type="submit"
+            class="more-btn more-middle"
+          >
+            <a class="d-block" href="https://kenwheeler.github.io/slick/"
+              >MORE DETAIL</a
+            >
+            <div class="more-btn-line position-relative">
+              <div class="more-btn-deg position-absolute"></div>
+              <div class="more-btn-circle position-absolute"></div>
+            </div>
+          </button>
+        </div>
+      </section>
+      <!-- section-contact -->
+      <section class="section-contact">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <div class="section-contact-item w-100">
+              <div class="section-contact-title">
+                <h4><i>CONTACT</i></h4>
+                <p>
+                  如果您有任何需要的服務或意見反映，我們將盡快與您取得聯繫。
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="section-contact-item">
+              <div class="section-contact-num">
+                <p class="d-none d-md-block">
+                  TEL：07-3726535&nbsp;&nbsp;FAX：07-3726671
+                </p>
+                <p class="d-block d-md-none">
+                  TEL：07-3726535<br />FAX：07-3726671
+                </p>
+                <button class="contact-btn">
+                  <a href="#">聯 絡 我 們</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- footer -->
+      <footer class="footer-main d-flex flex-wrap">
+        <div class="footer-logo">
+          <div class="footer-logo-pic">
+            <img src="./src/web/icon/footer_logo.svg" alt="" />
+          </div>
+        </div>
+        <div class="footer-link">
+          <div class="footer-link-title">
+            <p>LINK</p>
+          </div>
+          <div class="footer-link-list d-flex">
+            <ul>
+              <li><a href="#">關於葳龍</a></li>
+              <li><a href="#">代工項目</a></li>
+              <li><a href="#">產品介紹</a></li>
+              <li><a href="#">EDM</a></li>
+            </ul>
+            <ul>
+              <li><a href="#">最新消息</a></li>
+              <li><a href="#">影音瀏覽</a></li>
+              <li><a href="#">聯絡我們</a></li>
+              <li><a href="#">網站地圖</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-link-contact">
+          <div class="footer-contact-title">
+            <p>CONTACT</p>
+          </div>
+          <div class="footer-contact-item d-flex">
+            <div class="footer-contact-pic">
+              <img src="" alt="" />
+            </div>
+            <p>07-3726535</p>
+          </div>
+          <div class="footer-contact-item d-flex">
+            <div class="footer-contact-pic">
+              <img src="" alt="" />
+            </div>
+            <p>07-3726671</p>
+          </div>
+          <div class="footer-contact-item d-flex">
+            <div class="footer-contact-pic">
+              <img src="" alt="" />
+            </div>
+            <a href="mailto:weilung888@yahoo.com.tw">weilung888@yahoo.com.tw</a>
+          </div>
+          <div class="footer-contact-item d-flex">
+            <div class="footer-contact-pic">
+              <img src="" alt="" />
+            </div>
+            <a href="https://maps.app.goo.gl/atTCgNry4CpAfQdC7" target="_blank"
+              >高雄市仁武區永宏巷12弄36號</a
+            >
+          </div>
+        </div>
+        <div class="social-media-copy">
+          <div class="social-media-box">
+            <div class="social-media-item">
+              <div class="social-media-pic">
+                <img src="" alt="" />
+              </div>
+            </div>
+            <div class="social-media-item">
+              <div class="social-media-pic">
+                <img src="" alt="" />
+              </div>
+            </div>
+          </div>
+          <p>Copyright 2023 &copy; 葳龍貿易有限公司 Website Designed By RENU</p>
+        </div>
+      </footer>
+
       <div class="scroll-box" id="scrollBtn">
         <!-- background-img -->
       </div>
@@ -764,7 +994,7 @@
       integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
       crossorigin="anonymous"
     ></script>
-
+    <script src="./js/menu.js"></script>
     <script src="./js/scroll-top.js"></script>
     <!-- jquery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
