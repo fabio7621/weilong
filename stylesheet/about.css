@@ -1,0 +1,109 @@
+.section-main-bread {
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+.bread-list {
+  margin-left: auto;
+  margin-top: 20px;
+}
+.bread-list li a {
+  color: #121212;
+  font-size: 15px;
+  font-weight: 400;
+}
+.bread-list li {
+  margin-left: 5px;
+}
+.accordion-title h2 {
+  font-size: 35px;
+  color: #121212;
+  font-weight: 600;
+  margin-bottom: 0.8em;
+}
+.title-pic {
+  width: 27.35px;
+  margin-right: 30px;
+}
+
+/* 選單 */
+.section-product-title-main {
+  width: 70.833333%;
+  margin: auto;
+  padding-top: 5.388601vw;
+  padding-bottom: 4.922279vw;
+}
+
+.menu-control h3 {
+  font-size: 2.072538vw;
+  font-weight: 500;
+  margin-bottom: 35px;
+}
+.section-product-main {
+  width: 95%;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+.menu-list-item p,
+.menu-list-item a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #432004;
+  text-indent: 2em;
+  font-weight: 600;
+}
+
+.menu-list-item {
+  background-image: url(../src/web/about/pic_2.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 18.49vw;
+  height: 73px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  margin-bottom: 12px;
+}
+.section-title-item {
+  margin-bottom: 40px;
+}
+.section-title-item h3 {
+  font-size: 35px;
+  font-weight: 800;
+  color: #432004;
+  margin-right: 40px;
+}
+.section-title-pic {
+  width: 60%;
+  height: 18.9px;
+}
+.section-title-pic img {
+  width: 100%;
+}
+.section-article p {
+  font-size: 20px;
+  color: #432004;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  margin-bottom: 80px;
+}
+@media (width<992px) {
+  .menu-list-item {
+    width: 100%;
+  }
+  .menu-list-item p,
+  .menu-list-item a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #432004;
+    text-indent: 2em;
+    font-weight: 600;
+    margin: auto;
+  }
+  .menu-control > h2 {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 0.8em;
+    font-weight: 800;
+    color: #432004;
+  }
+}
