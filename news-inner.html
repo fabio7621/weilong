@@ -23,21 +23,16 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
-    <!-- Link Swiper's CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
-    <!-- BS-CSS    -->
+    <!-- BS&CSS    -->
     <link rel="stylesheet" href="./stylesheet/bootstrap.css" />
     <link rel="shortcut icon" href="./favicon.ico" />
     <link rel="stylesheet" href="./stylesheet/reset.css" />
     <link rel="stylesheet" href="./stylesheet/main.css" />
+    <link rel="stylesheet" href="./stylesheet/about.css" />
+
     <!-- JS -->
     <script src="./js/menu.js"></script>
     <script src="./js/scroll-top.js"></script>
-    <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   </head>
 
   <body>
@@ -69,7 +64,7 @@
               <!--pc navbar -->
               <ul class="navbar-nav navbar-menu-pc mx-auto d-none d-md-flex">
                 <li class="pc-nav-item position-relative">
-                  <a class="menu-pc-item" href="#"> 關於葳龍 </a>
+                  <a class="menu-pc-item" href="#">關於葳龍</a>
                   <ul
                     class="menu-pc-dropdown-box position-absolute"
                     style="transform: translateX(-30%)"
@@ -577,315 +572,193 @@
           </div>
         </nav>
       </header>
+      <!-- header-end -->
+      <div class="section-banner">
+        <img
+          class="w-100 d-none d-md-block"
+          src="./src/web/news/news_banner.png"
+          alt="banner"
+        />
+        <img
+          class="w-100 d-block d-md-none"
+          src="./src/phone/news/news_banner.png"
+          alt="banner"
+        />
+      </div>
 
-      <!-- banner區塊 -->
-      <section class="banner-main w-100">
-        <!-- Swiper -->
-        <div class="swiper mySwiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <img
-                src="./src/web/home/web_banner_1.png"
-                class="d-none w-100 d-md-block"
-                alt="bannerB"
-              />
-              <img
-                src="./src/phone/home/phone_banner1.png"
-                class="d-block w-100 d-md-none"
-                alt="bannerR"
-              />
-            </div>
-            <div class="swiper-slide">
-              <img
-                src="./src/web/home/web_banner_2.png"
-                class="d-none w-100 d-md-block"
-                alt="bannerB"
-              />
-              <img
-                src="/src/phone/home/phone_banner2.png"
-                class="d-block w-100 d-md-none"
-                alt="bannerR"
-              />
-            </div>
-            <div class="swiper-slide">
-              <img
-                src="./src/web/home/web_banner_3.png"
-                class="d-none w-100 d-md-block"
-                alt="bannerB"
-              />
-              <img
-                src="/src/phone/home/phone_banner3.png"
-                class="d-block w-100 d-md-none"
-                alt="bannerR"
-              />
-            </div>
-          </div>
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-pagination"></div>
+      <section class="section-product section-news-page w-100 mb-3">
+        <!-- bread-list -->
+        <div class="section-main-bread">
+          <ol class="bread-list d-flex">
+            <li>
+              <a class="text-decoration-none" href="#">HOME</a>
+            </li>
+            <li>/</li>
+            <li>
+              <a href class="text-decoration-none" href="#">最新消息</a>
+            </li>
+          </ol>
         </div>
-      </section>
-      <!-- team&gmp -->
-      <section class="section-team-gmp w-100">
-        <div class="section-team-gmp-main">
-          <div class="section-team-gmp-title w-100">
-            <h3 class="d-none d-md-block">GMP工廠認證 / 專業研發技能團隊</h3>
-            <h3 class="d-block d-md-none">GMP工廠認證<br />專業研發技能團隊</h3>
-          </div>
-          <div
-            class="section-team-gmp-box d-flex flex-wrap justify-content-between"
-          >
-            <div class="section-team-gmp-item">
-              <div class="team-gmp-pic w-100">
-                <img class="img-fluid" src="./src/web/home/pic_1.png" alt="" />
-              </div>
-              <p>千坪GMP認證工廠</p>
-            </div>
-            <div class="section-team-gmp-item">
-              <div class="team-gmp-pic w-100">
-                <img class="img-fluid" src="./src/web/home/pic_2.png" alt="" />
-              </div>
-              <p>專業研發技術團隊</p>
-            </div>
-            <div class="section-team-gmp-item">
-              <div class="team-gmp-pic w-100">
-                <img class="img-fluid" src="./src/web/home/pic_3.png" alt="" />
-              </div>
-              <p>360度服務零死角</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--section-index-about  -->
-      <section class="section-index-about">
-        <div class="section-index-about-main d-flex flex-wrap">
-          <!-- picture&content -->
-          <div class="section-index-about-pic position-relative">
-            <div
-              class="section-index-about-title d-block d-md-none position-absolute"
-            >
-              <h3>ABOUT</h3>
-            </div>
-            <div
-              class="section-index-about-title w-100 d-md-block d-none position-absolute"
-            >
-              <h3>ABOUT</h3>
-            </div>
-            <img
-              class="w-100 d-none d-md-block"
-              src="./src/web/home/pic_4.png"
-            />
-            <img
-              class="w-100 d-block d-md-none"
-              src="./src/web/home/pic_4.png"
-            />
-          </div>
-          <div class="section-index-about-content">
-            <h4>關 / 於 / 葳 / 龍</h4>
-            <p>
-              葳龍貿易創立於1999年, 座落於高雄市仁武區, 專業美髮護膚產品代工廠,
-              以純有機植物萃取配方結合最新的科技、強調品質穩定並講究純淨自然,
-              為秀髮及肌膚的健康做嚴密把關, 在不斷突破創新,
-              葳龍貿易進一步成為葳龍生技 將是相當競爭力之專業代工廠
-            </p>
-            <p>
-              近年來化妝品產業蓬勃發展, 特將經歷數十年來不斷吸收自國內外,
-              日新月異的生產及設備工程技術, 結合本公司團隊研發製造技術向上提升
-              提供消費者更健康、更專業的產品服務。
-            </p>
+        <div class="section-product-main">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12 col-md-12 col-lg-3 p-0">
+                <div class="menu-control">
+                  <!-- 手機板選單 -->
+                  <!-- 下面這段標題會隨頁更換 -->
+                  <h2 class="d-block d-md-none">最新消息</h2>
+                  <div
+                    class="accordion menu-list-phone accordion-flush w-100 d-block d-lg-none"
+                    id="rwd-main-menu"
+                  >
+                    <div class="accordion-item phone-list-body">
+                      <h2 class="accordion-header">
+                        <button
+                          class="accordion-button collapsed menu-list-item"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseMain"
+                          aria-expanded="false"
+                          aria-controls="flush-collapseMain"
+                        >
+                          <p>分類目錄</p>
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapseMain"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div class="menu-list-body accordion-body w-100 p-0">
+                          <div
+                            class="accordion rounded-0 border-0"
+                            id="accordionExample "
+                          >
+                            <!-- 1 -->
+                            <div class="accordion-item">
+                              <button
+                                class="accordion-button collapsed menu-list-item"
+                                type="button"
+                              >
+                                <a href="#">消息分類</a>
+                              </button>
+                            </div>
 
-            <button href="#" type="submit" class="more-btn">
-              <a class="d-block" href="https://kenwheeler.github.io/slick/"
-                >MORE DETAIL</a
-              >
-              <div class="more-btn-line position-relative">
-                <div class="more-btn-deg position-absolute"></div>
-                <div class="more-btn-circle position-absolute"></div>
-              </div>
-            </button>
-          </div>
-        </div>
-      </section>
-      <!-- OEMstep -->
-      <section class="section-oem-step">
-        <div class="section-oem-step-main">
-          <div class="section-oem-step-title">
-            <h3>代 / 工 / 流 / 程</h3>
-          </div>
-          <div
-            class="section-oem-step-box d-flex flex-wrap justify-content-between"
-          >
-            <div class="section-oem-step-item">
-              <div class="step-arrow">
-                <img src="./src/web/icon/home_arrow.svg" alt="" />
-              </div>
-              <div class="section-oem-step-pic">
-                <img src="./src/web/home/pic_5.svg" alt="pic" />
-              </div>
-              <p>1.需求提案<br />品項/功效/價格</p>
-            </div>
-            <div class="section-oem-step-item">
-              <div class="step-arrow d-none d-md-block">
-                <img src="./src/web/icon/home_arrow.svg" alt="" />
-              </div>
-              <div class="section-oem-step-pic">
-                <img src="./src/web/home/pic_6.svg" alt="pic" />
-              </div>
-              <p>2.商品規劃<br />形象設定 / 成分訴求</p>
-            </div>
-            <div class="section-oem-step-item">
-              <div class="step-arrow">
-                <img src="./src/web/icon/home_arrow.svg" alt="" />
-              </div>
-              <div class="section-oem-step-pic">
-                <img src="./src/web/home/pic_7.svg" alt="pic" />
-              </div>
-              <p>3.商品開發<br />方案確認 / 包裝設計 打樣測試</p>
-            </div>
-            <div class="section-oem-step-item">
-              <div class="step-arrow d-none d-md-block">
-                <img src="./src/web/icon/home_arrow.svg" alt="" />
-              </div>
-              <div class="section-oem-step-pic">
-                <img src="./src/web/home/pic_8.svg" alt="pic" />
-              </div>
-              <p>4.生產製造<br />調製/填充/包裝</p>
-            </div>
-            <div class="section-oem-step-item">
-              <div class="step-arrow">
-                <img src="./src/web/icon/home_arrow.svg" alt="" />
-              </div>
-              <div class="section-oem-step-pic">
-                <img src="./src/web/home/pic_9.svg" alt="pic" />
-              </div>
-              <p>5.品質控管<br />包材品質/半成品品質 原料品質</p>
-            </div>
-            <div class="section-oem-step-item">
-              <div class="step-arrow d-none d-md-block">
-                <img src="./src/web/icon/home_arrow.svg" alt="" />
-              </div>
-              <div class="section-oem-step-pic">
-                <img src="./src/web/home/pic_10.svg" alt="pic" />
-              </div>
-              <p>6.出 貨</p>
-            </div>
-            <div class="section-oem-step-item">
-              <div class="section-oem-step-pic">
-                <img src="./src/web/home/pic_11.svg" alt="pic" />
-              </div>
-              <p>7.售後服務</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- section-news -->
-      <section class="section-news">
-        <div class="section-news-main">
-          <div class="section-news-title">
-            <p>What's News</p>
-            <h3>最 / 新 / 消 / 息</h3>
-          </div>
-          <div class="row justify-content-between pb-5">
-            <div class="col-12 col-md-4 mb-5">
-              <div class="section-news-item">
-                <a
-                  class="w-100 d-block text-decoration-none"
-                  href="./news-inner"
-                >
-                  <div class="section-news-pic">
-                    <img src="./src/web/home/news_1.png" alt="pic" />
+                            <!-- 2 -->
+                            <div class="accordion-item">
+                              <button
+                                class="accordion-button collapsed menu-list-item"
+                                type="button"
+                              >
+                                <a href="#">消息分類</a>
+                              </button>
+                            </div>
+                            <!-- 3 -->
+                            <div class="accordion-item">
+                              <button
+                                class="accordion-button collapsed menu-list-item"
+                                type="button"
+                              >
+                                <a href="#">消息分類</a>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <div class="section-news-date d-flex w-100 align-bottom">
-                    <p class="section-news-year">20<br />23</p>
-                    <p class="section-news-day">07.07</p>
+                  <!-- 桌機板選單 -->
+                  <div class="menu-list d-none w-100 d-md-none d-lg-block">
+                    <div>
+                      <div class="accordion-title d-none d-md-flex">
+                        <div class="title-pic">
+                          <img
+                            class="w-100"
+                            src="./src/web/about/tree.svg"
+                            alt=""
+                          />
+                        </div>
+                        <h2>最新消息</h2>
+                      </div>
+                      <!-- 1 -->
+                      <div class="accordion-item">
+                        <button
+                          class="accordion-button collapsed menu-list-item p-0"
+                          type="button"
+                        >
+                          <a href="#">消息分類</a>
+                        </button>
+                      </div>
+                      <!-- 2 -->
+                      <div class="accordion-item">
+                        <button
+                          class="accordion-button collapsed menu-list-item p-0"
+                          type="button"
+                        >
+                          <a href="#">消息分類</a>
+                        </button>
+                      </div>
+                      <!-- 3 -->
+                      <div class="accordion-item">
+                        <button
+                          class="accordion-button collapsed p-0 menu-list-item"
+                          type="button"
+                        >
+                          <a href="#">消息分類</a>
+                        </button>
+                      </div>
+                    </div>
                   </div>
-                  <div class="section-news-date-content w-100">
-                    <p>新網站上線囉!</p>
-                  </div>
-                </a>
+                </div>
               </div>
-            </div>
-            <div class="col-12 col-md-4 mb-5">
-              <div class="section-news-item">
-                <a
-                  class="w-100 d-block text-decoration-none"
-                  href="./news-inner"
-                >
-                  <div class="section-news-pic">
-                    <img src="./src/web/home/news_2.png" alt="pic" />
+              <div class="col-12 col-md-12 col-lg-9">
+                <section class="section-vieo-main">
+                  <div class="section-news-item section-news-item-inner">
+                    <a
+                      class="w-100 d-block text-decoration-none"
+                      href="./news-inner"
+                    >
+                      <div class="section-news-date d-flex w-100 mb-3 mb-md-4">
+                        <div class="section-news-smalltitle d-flex">
+                          <p class="section-news-year">20<br />23</p>
+                          <p class="section-news-day">07.07</p>
+                        </div>
+
+                        <div class="section-news-bigtitle">
+                          <h3>新網站上線囉!</h3>
+                        </div>
+                      </div>
+                      <div class="section-news-pic">
+                        <img src="./src/web/home/news_1.png" alt="pic" />
+                      </div>
+
+                      <div class="section-news-date-content w-100">
+                        <p>新網站上線囉!</p>
+                        <div class="section-news-more w-100 d-flex flex-column">
+                          <button
+                            href="./news.html"
+                            type="submit"
+                            class="more-btn newinner-middle"
+                          >
+                            <a
+                              class="d-block"
+                              href="https://kenwheeler.github.io/slick/"
+                              >BACK</a
+                            >
+                            <div class="more-btn-line position-relative">
+                              <div
+                                class="more-btn-deg position-absolute reverse-deg"
+                              ></div>
+                              <div
+                                class="more-btn-circle reverse-circle position-absolute"
+                              ></div>
+                            </div>
+                          </button>
+                        </div>
+                      </div>
+                    </a>
                   </div>
-                  <div class="section-news-date d-flex w-100 align-bottom">
-                    <p class="section-news-year">20<br />23</p>
-                    <p class="section-news-day">09.24</p>
-                  </div>
-                  <div class="section-news-date-content w-100">
-                    <p>改善肌膚粗糙因肌膚的缺水而所產生的細紋</p>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="col-12 col-md-4 mb-5">
-              <div class="section-news-item">
-                <a
-                  class="w-100 d-block text-decoration-none"
-                  href="./news-inner"
-                >
-                  <div class="section-news-pic">
-                    <img src="./src/web/home/news_3.png" alt="pic" />
-                  </div>
-                  <div class="section-news-date d-flex w-100 align-bottom">
-                    <p class="section-news-year">20<br />23</p>
-                    <p class="section-news-day">09.24</p>
-                  </div>
-                  <div class="section-news-date-content w-100">
-                    <p>薰衣草可獲得舒壓及安寧的睡眠</p>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="section-news-more d-flex justify-content-center">
-          <button
-            href="https://www.google.com.tw/?hl=zh_TW"
-            type="submit"
-            class="more-btn more-middle"
-          >
-            <a class="d-block" href="https://kenwheeler.github.io/slick/"
-              >MORE DETAIL</a
-            >
-            <div class="more-btn-line position-relative">
-              <div class="more-btn-deg position-absolute"></div>
-              <div class="more-btn-circle position-absolute"></div>
-            </div>
-          </button>
-        </div>
-      </section>
-      <!-- section-contact -->
-      <section class="section-contact container-fluid">
-        <div class="row">
-          <div class="col-12 col-md-6">
-            <div class="section-contact-item w-100">
-              <div class="section-contact-title">
-                <h4><i>CONTACT</i></h4>
-                <p>
-                  如果您有任何需要的服務或意見反映，我們將盡快與您取得聯繫。
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6">
-            <div class="section-contact-item">
-              <div class="section-contact-num">
-                <p class="d-none d-md-block">
-                  TEL：07-3726535&nbsp;&nbsp;FAX：07-3726671
-                </p>
-                <p class="d-block d-md-none">
-                  TEL：07-3726535<br />FAX：07-3726671
-                </p>
-                <button class="contact-btn">
-                  <a href="#">聯 絡 我 們</a>
-                </button>
+                </section>
               </div>
             </div>
           </div>
@@ -1002,25 +875,7 @@
       integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
       crossorigin="anonymous"
     ></script>
-
-    <!-- Initialize Swiper -->
-    <script>
-      var swiper = new Swiper(".mySwiper", {
-        spaceBetween: 0,
-        centeredSlides: true,
-        autoplay: {
-          delay: 4000,
-          disableOnInteraction: false,
-        },
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-      });
-    </script>
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
   </body>
 </html>

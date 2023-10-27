@@ -45,6 +45,9 @@
   padding-top: 100px;
   padding-bottom: 30px;
 }
+.phone-list-body {
+  background-color: transparent;
+}
 .menu-list-item p,
 .menu-list-item a {
   text-decoration: none;
@@ -122,6 +125,101 @@
 .section-vieo-main {
   width: 98%;
 }
+.section-news-page {
+  background-image: url(../src/web/news/bg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 110px;
+  overflow: hidden;
+}
+/* 分頁 */
+.page-arrow {
+  display: block;
+  width: 125px;
+  height: 51px;
+  border: none;
+  background-color: transparent;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.page-arrow img {
+  width: 100%;
+}
+.page-arrow:first-child {
+  background-image: url(../src/web/icon/page_arrow_1.svg);
+}
+.page-arrow:first-child:hover {
+  background-image: url(../src/web/icon/page_arrow_1-1.svg);
+}
+.page-arrow:last-child {
+  background-image: url(../src/web/icon/page_arrow_2.svg);
+}
+.page-arrow:last-child:hover {
+  background-image: url(../src/web/icon/page_arrow_2-2.svg);
+}
+.page-control-box {
+  gap: 20px;
+}
+.page-control-box > li > a {
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  padding: 15px;
+  text-align: center;
+  display: block;
+  border-radius: 50%;
+  background-color: #fff;
+  text-decoration: none;
+  color: #dc000c;
+  font-family: "Montserrat", sans-serif;
+}
+.page-control-box > li > a:hover {
+  background-color: #dc000c;
+  color: #fff;
+}
+/* news-inner */
+.section-news-bigtitle h3 {
+  font-size: 35px;
+  align-self: flex-end;
+  color: #432004;
+  letter-spacing: 3px;
+  margin-left: 1.43em;
+}
+.newinner-middle {
+  align-items: center;
+  margin: auto;
+  width: 353px;
+  margin-top: 50px;
+}
+/* 反方向箭頭 */
+.reverse-circle {
+  left: 0;
+  transform: translate(-45%, -50%);
+}
+.reverse-deg {
+  left: 3px;
+  transform: rotate(342deg);
+}
+@media (width>992px) {
+  .section-news-item-inner {
+    width: 91.5%;
+    padding-bottom: 94px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .section-news-item-inner .section-news-pic {
+    width: 800px;
+  }
+  .section-news-item-inner:hover {
+    transform: translateY(0);
+  }
+  .section-news-item-inner .section-news-date {
+    padding-bottom: 1em;
+  }
+  .section-news-item-inner .section-news-day {
+    font-size: 44px;
+  }
+}
+
 @media (width<992px) {
   .menu-list-item {
     width: 100%;
@@ -168,5 +266,55 @@
     position: relative;
     top: 0;
     right: 0;
+  }
+  /* main-container */
+  .section-product-main {
+    width: 82.60869%;
+    margin: auto;
+    padding-top: 44px;
+    padding-bottom: 30px;
+  }
+  .section-vieo-main {
+    padding-top: 80px;
+  }
+  /* 分頁 */
+  .page-control-box {
+    gap: 12px;
+  }
+  .page-control-box > li > a {
+    font-size: 20px;
+    width: 37px;
+    height: 37px;
+    padding: 8px;
+    text-align: center;
+    display: block;
+    border-radius: 50%;
+    background-color: #fff;
+    text-decoration: none;
+    color: #dc000c;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .page-arrow {
+    width: 103px;
+    height: 42px;
+  }
+  /* news-inner */
+  .newinner-middle {
+    width: 188px;
+    margin: auto;
+    margin-top: 50px;
+    transform: translateX(6%);
+  }
+  .section-news-item-inner {
+    padding-bottom: 72px;
+  }
+  .section-news-bigtitle h3 {
+    font-size: 25px;
+    margin-top: 1em;
+    margin-left: 0;
+  }
+  .section-news-date {
+    flex-direction: column;
   }
 }

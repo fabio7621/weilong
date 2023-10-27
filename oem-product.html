@@ -29,10 +29,6 @@
     <link rel="stylesheet" href="./stylesheet/reset.css" />
     <link rel="stylesheet" href="./stylesheet/main.css" />
     <link rel="stylesheet" href="./stylesheet/about.css" />
-    <link rel="stylesheet" href="./stylesheet/owl.carousel.min.css" />
-    <link rel="stylesheet" href="./stylesheet/owl.theme.default.css" />
-    <!-- <link rel="stylesheet" href="./stylesheet/123/product.css" /> -->
-    <!-- JS -->
     <script src="./js/menu.js"></script>
     <script src="./js/scroll-top.js"></script>
   </head>
@@ -578,28 +574,29 @@
       <div class="section-banner">
         <img
           class="w-100 d-none d-md-block"
-          src="./src/web/about/about_banner.png"
+          src="./src/web/oem_project/oem_banner.png"
           alt="banner"
         />
         <img
           class="w-100 d-block d-md-none"
-          src="./src/phone/about/about_banner.png"
+          src="./src/phone/news/news_banner.png"
           alt="banner"
         />
       </div>
-      <!-- bread-list -->
-      <section class="section-main-bread">
-        <ol class="bread-list d-flex">
-          <li>
-            <a class="text-decoration-none" href="#">HOME</a>
-          </li>
-          <li>/</li>
-          <li>
-            <a href class="text-decoration-none" href="#">最新消息</a>
-          </li>
-        </ol>
-      </section>
-      <section class="section-product w-100">
+
+      <section class="section-product section-news-page w-100 mb-3">
+        <!-- bread-list -->
+        <div class="section-main-bread">
+          <ol class="bread-list d-flex">
+            <li>
+              <a class="text-decoration-none" href="#">HOME</a>
+            </li>
+            <li>/</li>
+            <li>
+              <a href class="text-decoration-none" href="#">最新消息</a>
+            </li>
+          </ol>
+        </div>
         <div class="section-product-main">
           <div class="container-fluid">
             <div class="row">
@@ -607,12 +604,12 @@
                 <div class="menu-control">
                   <!-- 手機板選單 -->
                   <!-- 下面這段標題會隨頁更換 -->
-                  <h2 class="d-block d-md-none">最新消息</h2>
+                  <h2 class="d-block d-md-none">代工項目</h2>
                   <div
                     class="accordion menu-list-phone accordion-flush w-100 d-block d-lg-none"
                     id="rwd-main-menu"
                   >
-                    <div class="accordion-item">
+                    <div class="accordion-item phone-list-body">
                       <h2 class="accordion-header">
                         <button
                           class="accordion-button collapsed menu-list-item"
@@ -679,7 +676,7 @@
                             alt=""
                           />
                         </div>
-                        <h2>最新消息</h2>
+                        <h2>代工項目</h2>
                       </div>
                       <!-- 1 -->
                       <div class="accordion-item">
@@ -713,198 +710,23 @@
                 </div>
               </div>
               <div class="col-12 col-md-12 col-lg-9">
-                <section class="section-vieo-main">
-                  <div class="row">
-                    <div class="col-12 col-md-4 mb-5">
-                      <div class="section-news-item">
-                        <a
-                          class="w-100 d-block text-decoration-none"
-                          href="./news-inner"
-                        >
-                          <div class="section-news-pic">
-                            <img src="./src/web/home/news_1.png" alt="pic" />
-                          </div>
-                          <div
-                            class="section-news-date d-flex w-100 align-bottom"
-                          >
-                            <p class="section-news-year">20<br />23</p>
-                            <p class="section-news-day">07.07</p>
-                          </div>
-                          <div class="section-news-date-content w-100">
-                            <p>新網站上線囉!</p>
-                          </div>
-                        </a>
-                      </div>
-                    </div>
-                    <div class="col-12 col-md-4 mb-5">
-                      <div class="section-news-item">
-                        <a
-                          class="w-100 d-block text-decoration-none"
-                          href="./news-inner"
-                        >
-                          <div class="section-news-pic">
-                            <img src="./src/web/home/news_2.png" alt="pic" />
-                          </div>
-                          <div
-                            class="section-news-date d-flex w-100 align-bottom"
-                          >
-                            <p class="section-news-year">20<br />23</p>
-                            <p class="section-news-day">09.24</p>
-                          </div>
-                          <div class="section-news-date-content w-100">
-                            <p>改善肌膚粗糙因肌膚的缺水而所產生的細紋</p>
-                          </div>
-                        </a>
-                      </div>
-                    </div>
-                    <div class="col-12 col-md-4 mb-5">
-                      <div class="section-news-item">
-                        <a
-                          class="w-100 d-block text-decoration-none"
-                          href="./news-inner"
-                        >
-                          <div class="section-news-pic">
-                            <img src="./src/web/home/news_3.png" alt="pic" />
-                          </div>
-                          <div
-                            class="section-news-date d-flex w-100 align-bottom"
-                          >
-                            <p class="section-news-year">20<br />23</p>
-                            <p class="section-news-day">09.24</p>
-                          </div>
-                          <div class="section-news-date-content w-100">
-                            <p>薰衣草可獲得舒壓及安寧的睡眠</p>
-                          </div>
-                        </a>
-                      </div>
-                    </div>
-                    <div class="col-12 col-md-4 mb-5">
-                      <div class="section-news-item">
-                        <a
-                          class="w-100 d-block text-decoration-none"
-                          href="./news-inner"
-                        >
-                          <div class="section-news-pic">
-                            <img src="./src/web/home/news_1.png" alt="pic" />
-                          </div>
-                          <div
-                            class="section-news-date d-flex w-100 align-bottom"
-                          >
-                            <p class="section-news-year">20<br />23</p>
-                            <p class="section-news-day">07.07</p>
-                          </div>
-                          <div class="section-news-date-content w-100">
-                            <p>新網站上線囉!</p>
-                          </div>
-                        </a>
-                      </div>
-                    </div>
-                    <div class="col-12 col-md-4 mb-5">
-                      <div class="section-news-item">
-                        <a
-                          class="w-100 d-block text-decoration-none"
-                          href="./news-inner"
-                        >
-                          <div class="section-news-pic">
-                            <img src="./src/web/home/news_2.png" alt="pic" />
-                          </div>
-                          <div
-                            class="section-news-date d-flex w-100 align-bottom"
-                          >
-                            <p class="section-news-year">20<br />23</p>
-                            <p class="section-news-day">09.24</p>
-                          </div>
-                          <div class="section-news-date-content w-100">
-                            <p>改善肌膚粗糙因肌膚的缺水而所產生的細紋</p>
-                          </div>
-                        </a>
-                      </div>
-                    </div>
-                    <div class="col-12 col-md-4 mb-5">
-                      <div class="section-news-item">
-                        <a
-                          class="w-100 d-block text-decoration-none"
-                          href="./news-inner"
-                        >
-                          <div class="section-news-pic">
-                            <img src="./src/web/home/news_3.png" alt="pic" />
-                          </div>
-                          <div
-                            class="section-news-date d-flex w-100 align-bottom"
-                          >
-                            <p class="section-news-year">20<br />23</p>
-                            <p class="section-news-day">09.24</p>
-                          </div>
-                          <div class="section-news-date-content w-100">
-                            <p>薰衣草可獲得舒壓及安寧的睡眠</p>
-                          </div>
-                        </a>
-                      </div>
-                    </div>
-                    <div class="col-12 col-md-4 mb-5">
-                      <div class="section-news-item">
-                        <a
-                          class="w-100 d-block text-decoration-none"
-                          href="./news-inner"
-                        >
-                          <div class="section-news-pic">
-                            <img src="./src/web/home/news_1.png" alt="pic" />
-                          </div>
-                          <div
-                            class="section-news-date d-flex w-100 align-bottom"
-                          >
-                            <p class="section-news-year">20<br />23</p>
-                            <p class="section-news-day">07.07</p>
-                          </div>
-                          <div class="section-news-date-content w-100">
-                            <p>新網站上線囉!</p>
-                          </div>
-                        </a>
-                      </div>
-                    </div>
-                    <div class="col-12 col-md-4 mb-5">
-                      <div class="section-news-item">
-                        <a
-                          class="w-100 d-block text-decoration-none"
-                          href="./news-inner"
-                        >
-                          <div class="section-news-pic">
-                            <img src="./src/web/home/news_2.png" alt="pic" />
-                          </div>
-                          <div
-                            class="section-news-date d-flex w-100 align-bottom"
-                          >
-                            <p class="section-news-year">20<br />23</p>
-                            <p class="section-news-day">09.24</p>
-                          </div>
-                          <div class="section-news-date-content w-100">
-                            <p>改善肌膚粗糙因肌膚的缺水而所產生的細紋</p>
-                          </div>
-                        </a>
-                      </div>
-                    </div>
-                    <div class="col-12 col-md-4 mb-5">
-                      <div class="section-news-item">
-                        <a
-                          class="w-100 d-block text-decoration-none"
-                          href="./news-inner"
-                        >
-                          <div class="section-news-pic">
-                            <img src="./src/web/home/news_3.png" alt="pic" />
-                          </div>
-                          <div
-                            class="section-news-date d-flex w-100 align-bottom"
-                          >
-                            <p class="section-news-year">20<br />23</p>
-                            <p class="section-news-day">09.24</p>
-                          </div>
-                          <div class="section-news-date-content w-100">
-                            <p>薰衣草可獲得舒壓及安寧的睡眠</p>
-                          </div>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
+                <section class="section-product-main container-fluid">
+                  <div class="row"></div>
+                  <!-- .......分頁區塊........ -->
+                  <nav
+                    class="page-control-section d-flex justify-content-center"
+                  >
+                    <ol class="page-control-box d-flex align-items-center">
+                      <button class="page-arrow"></button>
+                      <li><a href="#">1</a></li>
+                      <li><a href="#">2</a></li>
+                      <li><a href="#">3</a></li>
+                      <li><a href="#">4</a></li>
+                      <li><a href="#">5</a></li>
+                      <button class="page-arrow"></button>
+                    </ol>
+                  </nav>
+                  <!-- 分頁-end -->
                 </section>
               </div>
             </div>
@@ -1024,29 +846,5 @@
     ></script>
     <!-- jquery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
-    <!-- owl -->
-    <script src="./js/owl.carousel.min.js"></script>
-    <script>
-      $(".owl-carousel").owlCarousel({
-        loop: true,
-        margin: 10,
-        nav: true,
-        navText: [
-          "<img src='./src/web/icon/about_arrow_1.svg'>",
-          "<img src='./src/web/icon/about_arrow_2.svg'>",
-        ],
-        responsive: {
-          0: {
-            items: 1,
-          },
-          600: {
-            items: 1,
-          },
-          1000: {
-            items: 1,
-          },
-        },
-      });
-    </script>
   </body>
 </html>
