@@ -130,7 +130,8 @@
 }
 /* 搜尋條 */
 .scerch-section {
-  width: 195px;
+  /* width: 195px; */
+  width: 10.10362vw;
   height: 44px;
   border-radius: 50px;
   border: 1px solid #1d1d1d;
@@ -180,7 +181,7 @@
   text-decoration: none;
   color: #1d1d1d;
   padding: 45.5px 0 51.5px;
-  margin: 0 31px;
+  margin: 0 1.7vw;
 }
 .pc-nav-item > a:hover {
   color: #dc000c;
@@ -469,7 +470,7 @@
   position: relative;
 }
 .section-news-item {
-  width: 415px;
+  width: 21.62vw;
   height: 100%;
   margin: auto;
   background-color: #fff;
@@ -494,15 +495,17 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
   padding-bottom: 0.5em;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid #432004;
 }
 .section-news-year {
   font-size: 20px;
   line-height: 1.1;
   letter-spacing: 1px;
+  color: #432004;
 }
 .section-news-day {
   font-size: 35px;
+  color: #432004;
   line-height: 1.2;
   margin-left: 5px;
   border-bottom: none;
