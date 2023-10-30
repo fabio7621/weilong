@@ -6,6 +6,8 @@
 .bread-list {
   margin-left: auto;
   margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: end;
 }
 .bread-list li a {
   color: #121212;
@@ -127,7 +129,7 @@
 }
 /* news */
 .section-vieo-main {
-  width: 98%;
+  width: 100%;
 }
 .section-news-page {
   background-image: url(../src/web/news/bg.png);
@@ -194,6 +196,7 @@
   margin: auto;
   width: 353px;
   margin-top: 50px;
+  padding-bottom: 2em;
 }
 /* 反方向箭頭 */
 .reverse-circle {
@@ -209,6 +212,7 @@
     width: 21px;
     margin-right: 20px;
   }
+
   .section-news-item-inner {
     width: 91.5%;
     padding-bottom: 94px;
@@ -231,6 +235,9 @@
 @media (width<992px) {
   .menu-list-item {
     width: 100%;
+  }
+  .bread-list li a {
+    line-height: 1.6;
   }
   .menu-list-item p,
   .menu-list-item a {

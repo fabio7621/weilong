@@ -29,7 +29,11 @@
     <link rel="stylesheet" href="./stylesheet/reset.css" />
     <link rel="stylesheet" href="./stylesheet/main.css" />
     <link rel="stylesheet" href="./stylesheet/about.css" />
-    <link rel="stylesheet" href="./stylesheet/product.css" />
+    <link rel="stylesheet" href="./stylesheet/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./stylesheet/owl.theme.default.css" />
+    <link rel="stylesheet" href="./stylesheet/shopcart.css" />
+    <!-- <link rel="stylesheet" href="./stylesheet/123/product.css" /> -->
+    <!-- JS -->
     <script src="./js/menu.js"></script>
     <script src="./js/scroll-top.js"></script>
   </head>
@@ -63,7 +67,7 @@
               <!--pc navbar -->
               <ul class="navbar-nav navbar-menu-pc mx-auto d-none d-md-flex">
                 <li class="pc-nav-item position-relative">
-                  <a class="menu-pc-item" href="#">關於葳龍</a>
+                  <a class="menu-pc-item" href="#"> 關於葳龍 </a>
                   <ul
                     class="menu-pc-dropdown-box position-absolute"
                     style="transform: translateX(-30%)"
@@ -575,588 +579,130 @@
       <div class="section-banner">
         <img
           class="w-100 d-none d-md-block"
-          src="./src/web/oem_project/oem_banner.png"
+          src="./src/web/inquiry/inquiry_banner.png"
           alt="banner"
         />
         <img
           class="w-100 d-block d-md-none"
-          src="./src/phone/news/news_banner.png"
+          src="./src/phone/inquiry/inquiry_banner.png"
           alt="banner"
         />
       </div>
-
-      <section class="section-product section-prduct-page w-100 mb-3">
-        <!-- bread-list -->
-        <div class="section-main-bread">
-          <ol class="bread-list d-flex">
-            <li>
-              <a class="text-decoration-none" href="#">HOME</a>
-            </li>
-            <li>/</li>
-            <li>
-              <a href class="text-decoration-none" href="#">代工項目</a>
-            </li>
-          </ol>
+      <!-- bread-list -->
+      <section class="section-main-bread">
+        <ol class="bread-list d-flex">
+          <li>
+            <a class="text-decoration-none" href="#">HOME</a>
+          </li>
+          <li>/</li>
+          <li>
+            <a href class="text-decoration-none" href="#">詢價車</a>
+          </li>
+        </ol>
+      </section>
+      <section class="section-product w-100">
+        <div
+          class="shopping-cart-Big-title d-flex justify-content-center align-middle"
+        >
+          <div
+            class="shopping-cart-Big-title-pic d-none d-md-block big-title-pic-p"
+          ></div>
+          <h3>詢 / 價 / 車</h3>
+          <div
+            class="shopping-cart-Big-title-pic d-none d-md-block big-title-pic-n"
+          ></div>
         </div>
-        <div class="section-product-main">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-12 col-md-12 col-lg-3 p-0">
-                <div class="menu-control">
-                  <!-- 手機板選單 -->
-                  <!-- 下面這段標題會隨頁更換 -->
-                  <h2
-                    class="d-flex align-middle justify-content-center d-md-none"
-                  >
-                    <div class="title-product-pic">
-                      <img
-                        class="w-100"
-                        src="./src/web/oem_project/list-icon.svg"
-                        alt=""
-                      />
-                    </div>
-                    代工項目
-                  </h2>
-                  <div
-                    class="accordion menu-list-phone accordion-flush w-100 pb-5 d-block d-lg-none"
-                    id="rwd-main-menu"
-                  >
-                    <div class="accordion-item phone-list-body">
-                      <h2 class="accordion-header">
-                        <button
-                          class="accordion-button collapsed menu-list-item"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapseMain"
-                          aria-expanded="false"
-                          aria-controls="flush-collapseMain"
-                        >
-                          <p>產品目錄</p>
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapseMain"
-                        class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div class="menu-list-body accordion-body w-100 p-0">
-                          <div
-                            class="accordion rounded-0 border-0"
-                            id="accordionExample "
-                          >
-                            <!-- 1 -->
-                            <div class="accordion-item accordion-item-phone">
-                              <button
-                                class="accordion-button collapsed menu-list-item"
-                                type="button"
-                                data-bs-toggle="collapse"
-                                data-bs-target="#collapseFirst"
-                                aria-expanded="false"
-                                aria-controls="collapseFirst"
-                              >
-                                <a href="#">專業沙龍髮品</a>
-                              </button>
-                              <div
-                                id="collapseFirst"
-                                class="accordion-collapse collapse"
-                                data-bs-parent="#accordionExample"
-                              >
-                                <div class="menu-list-body accordion-body p-0">
-                                  <ul>
-                                    <li>
-                                      <a href="#"
-                                        >洗&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;髮</a
-                                      >
-                                    </li>
-                                    <li>
-                                      <a href="#"
-                                        >護&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;髮</a
-                                      >
-                                    </li>
-                                    <li>
-                                      <a href="#">頭皮養護</a>
-                                    </li>
-                                    <li>
-                                      <a href="#">造型護理</a>
-                                    </li>
-                                    <li>
-                                      <a href="#">護 髮 油</a>
-                                    </li>
-                                    <li>
-                                      <a href="#">職業洗護</a>
-                                    </li>
-                                    <li>
-                                      <a href="#">香氛髮品</a>
-                                    </li>
-                                    <li>
-                                      <a href="#">多元化客製清潔用品</a>
-                                    </li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div>
-
-                            <!-- 2 -->
-                            <div class="accordion-item accordion-item-phone">
-                              <button
-                                class="accordion-button collapsed menu-list-item"
-                                type="button"
-                                data-bs-toggle="collapse"
-                                data-bs-target="#collapseTwo"
-                                aria-expanded="false"
-                                aria-controls="collapseTwo"
-                              >
-                                <a href="#">美容保養品</a>
-                              </button>
-                              <div
-                                id="collapseTwo"
-                                class="accordion-collapse collapse"
-                                data-bs-parent="#accordionExample"
-                              >
-                                <div class="menu-list-body accordion-body p-0">
-                                  <ul>
-                                    <li>
-                                      <a href="#">精 華 液</a>
-                                    </li>
-                                    <li>
-                                      <a href="#">面　　膜</a>
-                                    </li>
-                                    <li>
-                                      <a href="#">乳　　霜</a>
-                                    </li>
-                                    <li>
-                                      <a href="#">臉部防曬</a>
-                                    </li>
-                                    <li>
-                                      <a href="#">洗卸產品</a>
-                                    </li>
-                                    <li>
-                                      <a href="#">時空膠囊</a>
-                                    </li>
-                                    <li>
-                                      <a href="#">脫 毛 膏</a>
-                                    </li>
-                                    <li>
-                                      <a href="#">抗痘凝膠</a>
-                                    </li>
-                                    <li>
-                                      <a href="#">多元化客製保養品</a>
-                                    </li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div>
-                            <!-- 3 -->
-                            <div class="accordion-item accordion-item-phone">
-                              <button
-                                class="accordion-button collapsed menu-list-item"
-                                type="button"
-                                data-bs-toggle="collapse"
-                                data-bs-target="#collapseThree"
-                                aria-expanded="false"
-                                aria-controls="collapseThree"
-                              >
-                                <a href="#">美體/清潔用品</a>
-                              </button>
-                              <div
-                                id="collapseThree"
-                                class="accordion-collapse collapse"
-                                data-bs-parent="#accordionExample"
-                              >
-                                <div class="menu-list-body accordion-body p-0">
-                                  <ul>
-                                    <li>
-                                      <a href="#">沐 浴 乳</a>
-                                    </li>
-                                    <li>
-                                      <a href="#">身 體 乳</a>
-                                    </li>
-                                    <li>
-                                      <a href="#">洗 手 乳</a>
-                                    </li>
-                                    <li>
-                                      <a href="#">清潔用品</a>
-                                    </li>
-                                    <li>
-                                      <a href="#">香氛噴霧</a>
-                                    </li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- 桌機板選單 -->
-                  <div class="menu-list d-none w-100 d-md-none d-lg-block">
-                    <div>
-                      <div class="accordion-title d-none d-md-flex">
-                        <div class="title-product-pic">
-                          <img
-                            class="w-100"
-                            src="./src/web/oem_project/list-icon.svg"
-                            alt=""
-                          />
-                        </div>
-                        <h2>代工項目</h2>
-                      </div>
-                      <!-- 1 -->
-                      <div class="accordion-item">
-                        <button
-                          class="accordion-button collapsed menu-list-item p-0"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapseFirst"
-                          aria-expanded="false"
-                          aria-controls="collapseFirst"
-                        >
-                          <a href="#">專業沙龍髮品</a>
-                        </button>
-                        <div
-                          id="collapseFirst"
-                          class="accordion-collapse collapse"
-                          data-bs-parent="#accordionExample"
-                        >
-                          <div class="accordion-body menu-list-body p-0">
-                            <ul>
-                              <li>
-                                <a href="#"
-                                  >洗&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;髮</a
-                                >
-                              </li>
-                              <li>
-                                <a href="#"
-                                  >護&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;髮</a
-                                >
-                              </li>
-                              <li>
-                                <a href="#">頭皮養護</a>
-                              </li>
-                              <li>
-                                <a href="#">造型護理</a>
-                              </li>
-                              <li>
-                                <a href="#">護 髮 油</a>
-                              </li>
-                              <li>
-                                <a href="#">職業洗護</a>
-                              </li>
-                              <li>
-                                <a href="#">香氛髮品</a>
-                              </li>
-                              <li>
-                                <a href="#">多元化客製清潔用品</a>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                      <!-- 2 -->
-                      <div class="accordion-item">
-                        <button
-                          class="accordion-button collapsed menu-list-item p-0"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapseTwo"
-                          aria-expanded="false"
-                          aria-controls="collapseTwo"
-                        >
-                          <a href="#">美容保養品</a>
-                        </button>
-                        <div
-                          id="collapseTwo"
-                          class="accordion-collapse collapse"
-                          data-bs-parent="#accordionExample"
-                        >
-                          <div class="accordion-body menu-list-body p-0">
-                            <ul>
-                              <li>
-                                <a href="#">精 華 液</a>
-                              </li>
-                              <li>
-                                <a href="#"
-                                  >面&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;膜</a
-                                >
-                              </li>
-                              <li>
-                                <a href="#"
-                                  >乳&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;霜</a
-                                >
-                              </li>
-                              <li>
-                                <a href="#">臉部防曬</a>
-                              </li>
-                              <li>
-                                <a href="#">洗卸產品</a>
-                              </li>
-                              <li>
-                                <a href="#">時空膠囊</a>
-                              </li>
-                              <li>
-                                <a href="#">脫 毛 膏</a>
-                              </li>
-                              <li>
-                                <a href="#">抗痘凝膠</a>
-                              </li>
-                              <li>
-                                <a href="#">多元化客製保養品</a>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                      <!-- 3 -->
-                      <div class="accordion-item">
-                        <button
-                          class="accordion-button collapsed p-0 menu-list-item"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapseThree"
-                          aria-expanded="false"
-                          aria-controls="collapseThree"
-                        >
-                          <a href="#">美體/清潔用品</a>
-                        </button>
-                        <div
-                          id="collapseThree"
-                          class="accordion-collapse collapse"
-                          data-bs-parent="#accordionExample"
-                        >
-                          <div class="accordion-body menu-list-body p-0">
-                            <ul>
-                              <li>
-                                <a href="#">沐 浴 乳</a>
-                              </li>
-                              <li>
-                                <a href="#">身 體 乳</a>
-                              </li>
-                              <li>
-                                <a href="#">洗 手 乳</a>
-                              </li>
-                              <li>
-                                <a href="#">清潔用品</a>
-                              </li>
-                              <li>
-                                <a href="#">香氛噴霧</a>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12 col-md-12 col-lg-9 p-0-phone">
-                <section class="section-product-container container-fluid">
-                  <div class="row">
-                    <div class="col-12 col-md-4 p-0-phone">
-                      <div class="section-product-item">
-                        <a class="d-block w-100" href="#">
-                          <figure class="section-product-pic">
-                            <img
-                              class="img-fluid"
-                              src="./src/web/oem_project/oem-product.png"
-                              alt=""
-                            />
-                            <div class="section-product-dark position-absolute">
-                              <div class="section-product-dark-pic">
-                                <img
-                                  src="./src/web/oem_project/pic_2.svg"
-                                  class="w-100"
-                                  alt=""
-                                />
-                              </div>
-                            </div>
-                          </figure>
-                          <p>專業沙龍髮品</p>
-                        </a>
-                      </div>
-                    </div>
-                    <div class="col-12 col-md-4 p-0-phone">
-                      <div class="section-product-item">
-                        <a class="d-block w-100" href="#">
-                          <figure class="section-product-pic">
-                            <img
-                              class="img-fluid"
-                              src="./src/web/oem_project/oem-product.png"
-                              alt=""
-                            />
-                            <div class="section-product-dark position-absolute">
-                              <div class="section-product-dark-pic">
-                                <img
-                                  src="./src/web/oem_project/pic_2.svg"
-                                  class="w-100"
-                                  alt=""
-                                />
-                              </div>
-                            </div>
-                          </figure>
-                          <p>美容保養品</p>
-                        </a>
-                      </div>
-                    </div>
-                    <div class="col-12 col-md-4 p-0-phone">
-                      <div class="section-product-item">
-                        <a class="d-block w-100" href="#">
-                          <figure class="section-product-pic">
-                            <img
-                              class="img-fluid"
-                              src="./src/web/oem_project/oem-product.png"
-                              alt=""
-                            />
-                            <div class="section-product-dark position-absolute">
-                              <div class="section-product-dark-pic">
-                                <img
-                                  src="./src/web/oem_project/pic_2.svg"
-                                  class="w-100"
-                                  alt=""
-                                />
-                              </div>
-                            </div>
-                          </figure>
-                          <p>美體/清潔用品</p>
-                        </a>
-                      </div>
-                    </div>
-                    <div class="col-12 col-md-4 p-0-phone">
-                      <div class="section-product-item">
-                        <a class="d-block w-100" href="#">
-                          <figure class="section-product-pic">
-                            <img
-                              class="img-fluid"
-                              src="./src/web/oem_project/oem-product.png"
-                              alt=""
-                            />
-                            <div class="section-product-dark position-absolute">
-                              <div class="section-product-dark-pic">
-                                <img
-                                  src="./src/web/oem_project/pic_2.svg"
-                                  class="w-100"
-                                  alt=""
-                                />
-                              </div>
-                            </div>
-                          </figure>
-                          <p>造型護理</p>
-                        </a>
-                      </div>
-                    </div>
-                    <div class="col-12 col-md-4 p-0-phone">
-                      <div class="section-product-item">
-                        <a class="d-block w-100" href="#">
-                          <figure class="section-product-pic">
-                            <img
-                              class="img-fluid"
-                              src="./src/web/oem_project/oem-product.png"
-                              alt=""
-                            />
-                            <div class="section-product-dark position-absolute">
-                              <div class="section-product-dark-pic">
-                                <img
-                                  src="./src/web/oem_project/pic_2.svg"
-                                  class="w-100"
-                                  alt=""
-                                />
-                              </div>
-                            </div>
-                          </figure>
-                          <p>護　髮　油</p>
-                        </a>
-                      </div>
-                    </div>
-                    <div class="col-12 col-md-4 p-0-phone">
-                      <div class="section-product-item">
-                        <a class="d-block w-100" href="#">
-                          <figure class="section-product-pic">
-                            <img
-                              class="img-fluid"
-                              src="./src/web/oem_project/oem-product.png"
-                              alt=""
-                            />
-                            <div class="section-product-dark position-absolute">
-                              <div class="section-product-dark-pic">
-                                <img
-                                  src="./src/web/oem_project/pic_2.svg"
-                                  class="w-100"
-                                  alt=""
-                                />
-                              </div>
-                            </div>
-                          </figure>
-                          <p>職業洗護</p>
-                        </a>
-                      </div>
-                    </div>
-                    <div class="col-12 col-md-4 p-0-phone">
-                      <div class="section-product-item">
-                        <a class="d-block w-100" href="#">
-                          <figure class="section-product-pic">
-                            <img
-                              class="img-fluid"
-                              src="./src/web/oem_project/oem-product.png"
-                              alt=""
-                            />
-                            <div class="section-product-dark position-absolute">
-                              <div class="section-product-dark-pic">
-                                <img
-                                  src="./src/web/oem_project/pic_2.svg"
-                                  class="w-100"
-                                  alt=""
-                                />
-                              </div>
-                            </div>
-                          </figure>
-                          <p>香氛髮品</p>
-                        </a>
-                      </div>
-                    </div>
-                    <div class="col-12 col-md-4 p-0-phone">
-                      <div class="section-product-item">
-                        <a class="d-block w-100" href="#">
-                          <figure class="section-product-pic">
-                            <img
-                              class="img-fluid"
-                              src="./src/web/oem_project/oem-product.png"
-                              alt=""
-                            />
-                            <div class="section-product-dark position-absolute">
-                              <div class="section-product-dark-pic">
-                                <img
-                                  src="./src/web/oem_project/pic_2.svg"
-                                  class="w-100"
-                                  alt=""
-                                />
-                              </div>
-                            </div>
-                          </figure>
-                          <p>多元化客製清潔用品</p>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- .......分頁區塊........ -->
-                  <nav
-                    class="page-control-section d-flex justify-content-center mt-3 mt-md-5"
-                  >
-                    <ol class="page-control-box d-flex align-items-center">
-                      <button class="page-arrow"></button>
-                      <li><a href="#">1</a></li>
-                      <li><a href="#">2</a></li>
-                      <li><a href="#">3</a></li>
-                      <li><a href="#">4</a></li>
-                      <li><a href="#">5</a></li>
-                      <button class="page-arrow"></button>
-                    </ol>
-                  </nav>
-                  <!-- 分頁-end -->
-                </section>
-              </div>
-            </div>
+        <div class="shopping-cart-Big-title-body">
+          <p>
+            如果您對我們的產品服務感興趣或有任何疑問,請留下您的個人信息,以幫助我們協助您進行查詢。
+          </p>
+        </div>
+        <div class="shopping-cart">
+          <div class="shopping-cart-main">
+            <table class="w-100 shopping-cart-title-box">
+              <tr class="shopping-cart-title">
+                <th class="shopping-cart-name"><p>產品名稱</p></th>
+                <th class="shopping-cart-howMuch"><p>數量</p></th>
+                <th class="shopping-cart-del"><p>刪除</p></th>
+              </tr>
+              <tr class="shopping-cart-item">
+                <td class="shopping-name">
+                  <a href="./product-inner.html" class="shopping-name-pic">
+                    <img
+                      class="w-100"
+                      src="./src/web/inquiry/pic_1.png"
+                      alt="product-pic"
+                    />
+                  </a>
+                  <p>產品名稱</p>
+                </td>
+                <td class="shopping-howMuch">
+                  <input class="inputNum" type="number" min="0" />
+                </td>
+                <td class="shopping-del">
+                  <div class="shopping-del-pic"></div>
+                </td>
+              </tr>
+            </table>
           </div>
         </div>
+        <!-- 以上購物車 -->
+        <section class="shop-contact-us-main">
+          <div class="shop-contact-us">
+            <div class="shop-contact-us-title w-100">
+              <p>標註<span>*</span>為必填</p>
+            </div>
+            <form action="">
+              <div class="shop-contact-item">
+                <label for="myname"
+                  >姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名<span>*</span></label
+                >
+                <input
+                  type="text"
+                  class="w-100 mb-md-3 mb-2 form-control-item border-0"
+                  id="myname"
+                />
+              </div>
+              <div class="shop-contact-item">
+                <label for="cart-phone"
+                  >電&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;話<span>*</span></label
+                >
+                <input
+                  class="w-100 form-control-item border-0"
+                  type="tel"
+                  id="cart-phone"
+                />
+              </div>
+              <div class="shop-contact-item">
+                <label for="cart-tel">傳&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;真</label>
+                <input class="w-100" style="border: none" id="cart-tel" />
+              </div>
+
+              <div class="shop-contact-item">
+                <label for="mail-cart">電子信箱<span>*</span></label>
+                <input
+                  class="w-100 form-control-item border-0"
+                  type="email"
+                  id="mail-cart"
+                />
+              </div>
+              <div class="shop-contact-item">
+                <label class="" for="message-cart"
+                  >留言內容<span>*</span></label
+                >
+                <textarea
+                  class="w-100 mb-5 mb-md-5 form-textarea form-control-item border-0"
+                  name=""
+                  id="message-cart"
+                  rows="10"
+                ></textarea>
+              </div>
+              <button class="submit-btn w-100">
+                <a href="#">&nbsp;送出</a>
+              </button>
+            </form>
+          </div>
+        </section>
       </section>
       <!-- footer -->
       <footer class="footer-main d-flex flex-wrap">
@@ -1271,5 +817,29 @@
     ></script>
     <!-- jquery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <!-- owl -->
+    <script src="./js/owl.carousel.min.js"></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        navText: [
+          "<img src='./src/web/icon/about_arrow_1.svg'>",
+          "<img src='./src/web/icon/about_arrow_2.svg'>",
+        ],
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 1,
+          },
+          1000: {
+            items: 1,
+          },
+        },
+      });
+    </script>
   </body>
 </html>

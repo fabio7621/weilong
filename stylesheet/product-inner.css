@@ -1,0 +1,200 @@
+/* inner-main */
+.product-inner-main {
+  width: 80%;
+  margin: auto;
+}
+.pro-inner-txt h3 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #505050;
+  letter-spacing: 3px;
+}
+
+.pro-inner-txt h3::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px dotted #202020;
+  margin-top: 0.6em;
+}
+.pro-inner-txt p {
+  font-size: 1.036269vw;
+  letter-spacing: 2px;
+  line-height: 1.6;
+  color: #505050;
+  margin-top: 1em;
+}
+.nav-tabs .nav-link.active button,
+.nav-item-title button {
+  font-size: 1.036269vw;
+  text-align: center;
+  border-radius: 0;
+  padding: 15px 50px;
+  letter-spacing: 2px;
+}
+.nav-item-title button {
+  background-color: #f2f2f2;
+  color: #9e958e;
+}
+.nav-tabs .nav-link.active {
+  background-color: #9e958e;
+  color: #fff;
+  border-color: #9e958e;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: #9e958e;
+  border-color: #9e958e;
+}
+.nav-tabs .nav-link {
+  border-color: #f2f2f2;
+}
+.nav-tabs {
+  --bs-nav-tabs-border-color: #505050;
+}
+.product-tab-content p {
+  font-size: 1.036269vw;
+  letter-spacing: 2px;
+  line-height: 1.6;
+}
+
+/* inner-main-end */
+/* 加入購物車 */
+.addPrice {
+  width: 70%;
+  height: 64px;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  background-color: #dc3545;
+  margin-left: 4.375%;
+}
+.addPrice a {
+  font-size: 1.29533vw;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 0.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* 詢價數量 */
+.howmuch-section {
+  width: 100%;
+  display: flex;
+  margin-top: auto;
+  padding-left: 4.350158%;
+  transform: translateY(-25px);
+}
+.howmuch-box {
+  display: block;
+  margin-top: auto;
+}
+.howmuch-box p {
+  font-size: 1.29533vw;
+  margin-right: 1em;
+}
+
+.howmuch {
+  width: 8.497409vw;
+  height: 36px;
+  text-align: center;
+}
+.howmuch-box {
+  display: flex;
+  align-items: center;
+}
+.howmuch-item {
+  width: 36px;
+  height: 36px;
+  background-color: #121212;
+}
+.addPrice a > .material-symbols-outlined {
+  font-size: 24px;
+  font-weight: 500;
+  margin-left: 44.56px;
+}
+@media (width<992px) {
+  /* inner-main */
+  .product-inner-main {
+    width: 83.333%;
+    margin-top: 60px;
+  }
+  .nav-item-title button {
+    font-size: 16px;
+    text-align: center;
+    border-radius: 0;
+    padding: 10px 0px;
+    letter-spacing: 1.6px;
+  }
+  .pro-inner-txt h3 {
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 4.5px;
+    margin-top: 36px;
+  }
+  .pro-inner-txt h3::after {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .product-tab-content p {
+    font-size: 16px;
+    letter-spacing: 1.6px;
+    line-height: 1.6;
+  }
+  .pro-inner-txt p {
+    margin-bottom: 70px;
+    font-size: 20px;
+  }
+  .nav-item-title {
+    width: 50%;
+  }
+  .nav-tabs .nav-link,
+  .nav-tabs .nav-link.active {
+    width: 100%;
+  }
+  .product-nav-tabs {
+    border-bottom: 3px solid #9e958e;
+  }
+  /* 購物按鈕 */
+  .howmuch-section {
+    width: 100%;
+    display: flex;
+    margin-top: auto;
+    padding-left: 0px;
+    transform: translateY(0px);
+    margin-bottom: 20px;
+  }
+  .howmuch-box p {
+    font-size: 20px;
+    margin-right: 1em;
+  }
+  .addPrice a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 1.2px;
+  }
+  .addPrice a > .material-symbols-outlined {
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 44.56px;
+  }
+  .howmuch {
+    width: 164px;
+    height: 36px;
+    text-align: center;
+  }
+  .addPrice {
+    width: 100%;
+    height: 64px;
+    margin-left: 0px;
+    margin-bottom: 60px;
+  }
+  .howmuch-item {
+    background-color: #121212;
+  }
+}
