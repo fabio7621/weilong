@@ -25,6 +25,10 @@
   width: 27.35px;
   margin-right: 30px;
 }
+.title-product-pic {
+  width: 21px;
+  margin-right: 32px;
+}
 
 /* 選單 */
 .section-product-title-main {
@@ -40,7 +44,7 @@
   margin-bottom: 35px;
 }
 .section-product-main {
-  width: 95%;
+  width: 90%;
   margin: auto;
   padding-top: 100px;
   padding-bottom: 30px;
@@ -201,6 +205,10 @@
   transform: rotate(342deg);
 }
 @media (width>992px) {
+  .title-product-pic {
+    width: 21px;
+    margin-right: 20px;
+  }
   .section-news-item-inner {
     width: 91.5%;
     padding-bottom: 94px;

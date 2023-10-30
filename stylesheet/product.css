@@ -1,0 +1,28 @@
+/* product-list */
+.menu-list-body > ul > li > a {
+  font-size: 20px;
+  display: block;
+  color: #432004;
+  text-decoration: none;
+  letter-spacing: 3.8px;
+  font-weight: 500;
+  padding-left: 2em;
+}
+.menu-list-body ul li + li {
+  margin-top: 20px;
+}
+.menu-list-body ul li:last-child {
+  margin-bottom: 1em;
+}
+.menu-list-body ul {
+  background-color: transparent;
+}
+.accordion-item-phone {
+  background-color: transparent;
+}
+@media (width<992px) {
+  .menu-list-body > ul > li > a {
+    padding-left: 0px;
+    text-align: center;
+  }
+}

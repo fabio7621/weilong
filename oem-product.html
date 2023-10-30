@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="./stylesheet/reset.css" />
     <link rel="stylesheet" href="./stylesheet/main.css" />
     <link rel="stylesheet" href="./stylesheet/about.css" />
+    <link rel="stylesheet" href="./stylesheet/product.css" />
     <script src="./js/menu.js"></script>
     <script src="./js/scroll-top.js"></script>
   </head>
@@ -593,7 +594,7 @@
             </li>
             <li>/</li>
             <li>
-              <a href class="text-decoration-none" href="#">最新消息</a>
+              <a href class="text-decoration-none" href="#">代工項目</a>
             </li>
           </ol>
         </div>
@@ -604,7 +605,18 @@
                 <div class="menu-control">
                   <!-- 手機板選單 -->
                   <!-- 下面這段標題會隨頁更換 -->
-                  <h2 class="d-block d-md-none">代工項目</h2>
+                  <h2
+                    class="d-flex align-middle justify-content-center d-md-none"
+                  >
+                    <div class="title-product-pic">
+                      <img
+                        class="w-100"
+                        src="./src/web/oem_project/list-icon.svg"
+                        alt=""
+                      />
+                    </div>
+                    代工項目
+                  </h2>
                   <div
                     class="accordion menu-list-phone accordion-flush w-100 d-block d-lg-none"
                     id="rwd-main-menu"
@@ -619,7 +631,7 @@
                           aria-expanded="false"
                           aria-controls="flush-collapseMain"
                         >
-                          <p>分類目錄</p>
+                          <p>產品目錄</p>
                         </button>
                       </h2>
                       <div
@@ -633,32 +645,144 @@
                             id="accordionExample "
                           >
                             <!-- 1 -->
-                            <div class="accordion-item">
+                            <div class="accordion-item accordion-item-phone">
                               <button
                                 class="accordion-button collapsed menu-list-item"
                                 type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseFirst"
+                                aria-expanded="false"
+                                aria-controls="collapseFirst"
                               >
-                                <a href="#">消息分類</a>
+                                <a href="#">專業沙龍髮品</a>
                               </button>
+                              <div
+                                id="collapseFirst"
+                                class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample"
+                              >
+                                <div class="menu-list-body accordion-body p-0">
+                                  <ul>
+                                    <li>
+                                      <a href="#"
+                                        >洗&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;髮</a
+                                      >
+                                    </li>
+                                    <li>
+                                      <a href="#"
+                                        >護&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;髮</a
+                                      >
+                                    </li>
+                                    <li>
+                                      <a href="#">頭皮養護</a>
+                                    </li>
+                                    <li>
+                                      <a href="#">造型護理</a>
+                                    </li>
+                                    <li>
+                                      <a href="#">護 髮 油</a>
+                                    </li>
+                                    <li>
+                                      <a href="#">職業洗護</a>
+                                    </li>
+                                    <li>
+                                      <a href="#">香氛髮品</a>
+                                    </li>
+                                    <li>
+                                      <a href="#">多元化客製清潔用品</a>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
                             </div>
 
                             <!-- 2 -->
-                            <div class="accordion-item">
+                            <div class="accordion-item accordion-item-phone">
                               <button
                                 class="accordion-button collapsed menu-list-item"
                                 type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo"
+                                aria-expanded="false"
+                                aria-controls="collapseTwo"
                               >
-                                <a href="#">消息分類</a>
+                                <a href="#">美容保養品</a>
                               </button>
+                              <div
+                                id="collapseTwo"
+                                class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample"
+                              >
+                                <div class="menu-list-body accordion-body p-0">
+                                  <ul>
+                                    <li>
+                                      <a href="#">精 華 液</a>
+                                    </li>
+                                    <li>
+                                      <a href="#">面　　膜</a>
+                                    </li>
+                                    <li>
+                                      <a href="#">乳　　霜</a>
+                                    </li>
+                                    <li>
+                                      <a href="#">臉部防曬</a>
+                                    </li>
+                                    <li>
+                                      <a href="#">洗卸產品</a>
+                                    </li>
+                                    <li>
+                                      <a href="#">時空膠囊</a>
+                                    </li>
+                                    <li>
+                                      <a href="#">脫 毛 膏</a>
+                                    </li>
+                                    <li>
+                                      <a href="#">抗痘凝膠</a>
+                                    </li>
+                                    <li>
+                                      <a href="#">多元化客製保養品</a>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
                             </div>
                             <!-- 3 -->
-                            <div class="accordion-item">
+                            <div class="accordion-item accordion-item-phone">
                               <button
                                 class="accordion-button collapsed menu-list-item"
                                 type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree"
+                                aria-expanded="false"
+                                aria-controls="collapseThree"
                               >
-                                <a href="#">消息分類</a>
+                                <a href="#">美體/清潔用品</a>
                               </button>
+                              <div
+                                id="collapseThree"
+                                class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample"
+                              >
+                                <div class="menu-list-body accordion-body p-0">
+                                  <ul>
+                                    <li>
+                                      <a href="#">沐 浴 乳</a>
+                                    </li>
+                                    <li>
+                                      <a href="#">身 體 乳</a>
+                                    </li>
+                                    <li>
+                                      <a href="#">洗 手 乳</a>
+                                    </li>
+                                    <li>
+                                      <a href="#">清潔用品</a>
+                                    </li>
+                                    <li>
+                                      <a href="#">香氛噴霧</a>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -669,10 +793,10 @@
                   <div class="menu-list d-none w-100 d-md-none d-lg-block">
                     <div>
                       <div class="accordion-title d-none d-md-flex">
-                        <div class="title-pic">
+                        <div class="title-product-pic">
                           <img
                             class="w-100"
-                            src="./src/web/about/tree.svg"
+                            src="./src/web/oem_project/list-icon.svg"
                             alt=""
                           />
                         </div>
@@ -683,27 +807,143 @@
                         <button
                           class="accordion-button collapsed menu-list-item p-0"
                           type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseFirst"
+                          aria-expanded="false"
+                          aria-controls="collapseFirst"
                         >
-                          <a href="#">消息分類</a>
+                          <a href="#">專業沙龍髮品</a>
                         </button>
+                        <div
+                          id="collapseFirst"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="accordion-body menu-list-body p-0">
+                            <ul>
+                              <li>
+                                <a href="#"
+                                  >洗&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;髮</a
+                                >
+                              </li>
+                              <li>
+                                <a href="#"
+                                  >護&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;髮</a
+                                >
+                              </li>
+                              <li>
+                                <a href="#">頭皮養護</a>
+                              </li>
+                              <li>
+                                <a href="#">造型護理</a>
+                              </li>
+                              <li>
+                                <a href="#">護 髮 油</a>
+                              </li>
+                              <li>
+                                <a href="#">職業洗護</a>
+                              </li>
+                              <li>
+                                <a href="#">香氛髮品</a>
+                              </li>
+                              <li>
+                                <a href="#">多元化客製清潔用品</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
                       </div>
                       <!-- 2 -->
                       <div class="accordion-item">
                         <button
                           class="accordion-button collapsed menu-list-item p-0"
                           type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseTwo"
+                          aria-expanded="false"
+                          aria-controls="collapseTwo"
                         >
-                          <a href="#">消息分類</a>
+                          <a href="#">美容保養品</a>
                         </button>
+                        <div
+                          id="collapseTwo"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="accordion-body menu-list-body p-0">
+                            <ul>
+                              <li>
+                                <a href="#">精 華 液</a>
+                              </li>
+                              <li>
+                                <a href="#"
+                                  >面&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;膜</a
+                                >
+                              </li>
+                              <li>
+                                <a href="#"
+                                  >乳&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;霜</a
+                                >
+                              </li>
+                              <li>
+                                <a href="#">臉部防曬</a>
+                              </li>
+                              <li>
+                                <a href="#">洗卸產品</a>
+                              </li>
+                              <li>
+                                <a href="#">時空膠囊</a>
+                              </li>
+                              <li>
+                                <a href="#">脫 毛 膏</a>
+                              </li>
+                              <li>
+                                <a href="#">抗痘凝膠</a>
+                              </li>
+                              <li>
+                                <a href="#">多元化客製保養品</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
                       </div>
                       <!-- 3 -->
                       <div class="accordion-item">
                         <button
                           class="accordion-button collapsed p-0 menu-list-item"
                           type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseThree"
+                          aria-expanded="false"
+                          aria-controls="collapseThree"
                         >
-                          <a href="#">消息分類</a>
+                          <a href="#">美體/清潔用品</a>
                         </button>
+                        <div
+                          id="collapseThree"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="accordion-body menu-list-body p-0">
+                            <ul>
+                              <li>
+                                <a href="#">沐 浴 乳</a>
+                              </li>
+                              <li>
+                                <a href="#">身 體 乳</a>
+                              </li>
+                              <li>
+                                <a href="#">洗 手 乳</a>
+                              </li>
+                              <li>
+                                <a href="#">清潔用品</a>
+                              </li>
+                              <li>
+                                <a href="#">香氛噴霧</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
