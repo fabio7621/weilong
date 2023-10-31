@@ -9,6 +9,7 @@
   font-size: 35px;
   color: #432004;
   font-weight: 700;
+  font-family: "Montserrat", sans-serif;
 }
 .shopping-cart-Big-title-pic {
   width: 312.23px;
@@ -185,6 +186,11 @@
   border-radius: 5px;
   margin-top: 24px;
   margin-bottom: 30px;
+  text-align: 1em;
+}
+.shop-contact-item textarea:focus-visible,
+.shop-contact-item input:focus-visible {
+  outline: none;
 }
 .shop-contact-item .form-textarea {
   height: 350px;
@@ -213,6 +219,12 @@
   margin: auto;
   display: block;
   letter-spacing: 6em;
+}
+
+.contact-us-bg {
+  background-image: url(../src/web/contact/bg.png);
+  background-size: cover;
+  padding-top: 300px;
 }
 
 @media (width<1024px) {
@@ -298,7 +310,19 @@
   line-height: 1.6;
   font-weight: 600;
 }
-
+/* EDM-CONTACT */
+.edm-article {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 100px;
+}
+.edm-article p {
+  font-size: 20px;
+  color: #432004;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
 @media (width<768px) {
   .shopping-cart-Big-title h3 {
     font-size: 35px;
@@ -316,5 +340,8 @@
   }
   .shop-contact-item .form-textarea {
     margin-top: 10px;
+  }
+  .contact-us-bg {
+    background-image: url(../src/phone/contact/bg.png);
   }
 }

@@ -50,6 +50,7 @@
   margin: auto;
   padding-top: 100px;
   padding-bottom: 30px;
+  overflow: hidden;
 }
 .phone-list-body {
   background-color: transparent;

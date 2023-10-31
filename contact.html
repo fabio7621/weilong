@@ -29,7 +29,11 @@
     <link rel="stylesheet" href="./stylesheet/reset.css" />
     <link rel="stylesheet" href="./stylesheet/main.css" />
     <link rel="stylesheet" href="./stylesheet/about.css" />
-    <link rel="stylesheet" href="./stylesheet/videoPage.css" />
+    <link rel="stylesheet" href="./stylesheet/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./stylesheet/owl.theme.default.css" />
+    <link rel="stylesheet" href="./stylesheet/shopcart.css" />
+    <!-- <link rel="stylesheet" href="./stylesheet/123/product.css" /> -->
+    <!-- JS -->
     <script src="./js/menu.js"></script>
     <script src="./js/scroll-top.js"></script>
   </head>
@@ -63,7 +67,7 @@
               <!--pc navbar -->
               <ul class="navbar-nav navbar-menu-pc mx-auto d-none d-md-flex">
                 <li class="pc-nav-item position-relative">
-                  <a class="menu-pc-item" href="#">關於葳龍</a>
+                  <a class="menu-pc-item" href="#"> 關於葳龍 </a>
                   <ul
                     class="menu-pc-dropdown-box position-absolute"
                     style="transform: translateX(-30%)"
@@ -575,217 +579,105 @@
       <div class="section-banner">
         <img
           class="w-100 d-none d-md-block"
-          src="./src/web/video/video_banner.png"
+          src="./src/web/contact/contact_banner.png"
           alt="banner"
         />
         <img
           class="w-100 d-block d-md-none"
-          src="./src/phone/video/video_banner.png"
+          src="./src/phone/contact/contact_banner.png"
           alt="banner"
         />
       </div>
-
-      <section class="section-product section-video-page w-100 mb-3">
-        <!-- bread-list -->
-        <div class="section-main-bread">
-          <ol class="bread-list d-flex">
-            <li>
-              <a class="text-decoration-none" href="#">HOME</a>
-            </li>
-            <li>/</li>
-            <li>
-              <a href class="text-decoration-none" href="#">影音瀏覽</a>
-            </li>
-          </ol>
+      <!-- bread-list -->
+      <section class="section-main-bread">
+        <ol class="bread-list d-flex">
+          <li>
+            <a class="text-decoration-none" href="#">HOME</a>
+          </li>
+          <li>/</li>
+          <li>
+            <a href class="text-decoration-none" href="#">詢價車</a>
+          </li>
+        </ol>
+      </section>
+      <section class="section-product w-100">
+        <div
+          class="shopping-cart-Big-title d-flex justify-content-center align-middle"
+        >
+          <div
+            class="shopping-cart-Big-title-pic d-none d-md-block big-title-pic-p"
+          ></div>
+          <h3>詢 / 價 / 車</h3>
+          <div
+            class="shopping-cart-Big-title-pic d-none d-md-block big-title-pic-n"
+          ></div>
         </div>
-        <div class="section-product-main">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-12 col-md-12 col-lg-3 p-0">
-                <div class="menu-control">
-                  <!-- 手機板選單 -->
-                  <!-- 下面這段標題會隨頁更換 -->
-                  <h2 class="d-block d-md-none">影音瀏覽</h2>
-                  <div
-                    class="accordion menu-list-phone accordion-flush w-100 d-block d-lg-none"
-                    id="rwd-main-menu"
-                  >
-                    <div class="accordion-item phone-list-body">
-                      <h2 class="accordion-header">
-                        <button
-                          class="accordion-button collapsed menu-list-item"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapseMain"
-                          aria-expanded="false"
-                          aria-controls="flush-collapseMain"
-                        >
-                          <p>分類目錄</p>
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapseMain"
-                        class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div class="menu-list-body accordion-body w-100 p-0">
-                          <div
-                            class="accordion rounded-0 border-0"
-                            id="accordionExample "
-                          >
-                            <!-- 1 -->
-                            <div class="accordion-item">
-                              <button
-                                class="accordion-button collapsed menu-list-item"
-                                type="button"
-                              >
-                                <a href="#">消息分類</a>
-                              </button>
-                            </div>
-
-                            <!-- 2 -->
-                            <div class="accordion-item">
-                              <button
-                                class="accordion-button collapsed menu-list-item"
-                                type="button"
-                              >
-                                <a href="#">消息分類</a>
-                              </button>
-                            </div>
-                            <!-- 3 -->
-                            <div class="accordion-item">
-                              <button
-                                class="accordion-button collapsed menu-list-item"
-                                type="button"
-                              >
-                                <a href="#">消息分類</a>
-                              </button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- 桌機板選單 -->
-                  <div class="menu-list d-none w-100 d-md-none d-lg-block">
-                    <div>
-                      <div class="accordion-title d-none d-md-flex">
-                        <div class="title-pic">
-                          <img
-                            class="w-100"
-                            src="./src/web/video/pic_1.svg"
-                            alt=""
-                          />
-                        </div>
-                        <h2>影音瀏覽</h2>
-                      </div>
-                      <!-- 1 -->
-                      <div class="accordion-item">
-                        <button
-                          class="accordion-button collapsed menu-list-item p-0"
-                          type="button"
-                        >
-                          <a href="#">消息分類</a>
-                        </button>
-                      </div>
-                      <!-- 2 -->
-                      <div class="accordion-item">
-                        <button
-                          class="accordion-button collapsed menu-list-item p-0"
-                          type="button"
-                        >
-                          <a href="#">消息分類</a>
-                        </button>
-                      </div>
-                      <!-- 3 -->
-                      <div class="accordion-item">
-                        <button
-                          class="accordion-button collapsed p-0 menu-list-item"
-                          type="button"
-                        >
-                          <a href="#">消息分類</a>
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12 col-md-12 col-lg-9">
-                <section class="section-vieo-main">
-                  <div class="row">
-                    <div class="col-12 col-md-6">
-                      <div class="section-vieo-item">
-                        <a class="d-block w-100 text-decoration-none" href="#">
-                          <div class="section-vieo-pic">
-                            <img
-                              class="w-100 d-none d-md-block"
-                              src="./src/web/video/video1.png"
-                              alt=""
-                            />
-                            <img
-                              class="w-100 d-block d-md-none"
-                              src="./src/phone/video/video1.png"
-                              alt=""
-                            />
-                          </div>
-                          <article class="section-vieo-article">
-                            <h3>標 題</h3>
-                            <p>
-                              內文待補內文待補內文待補內文待補內文待補內文待補內文
-                              待補內文待補內文待補內文待補內文待補內文待補內文待補
-                              內文待補
-                            </p>
-                            <span>更新日期：2023 / 09 / 14</span>
-                          </article>
-                        </a>
-                      </div>
-                    </div>
-                    <div class="col-12 col-md-6">
-                      <div class="section-vieo-item">
-                        <a class="d-block w-100 text-decoration-none" href="#">
-                          <div class="section-vieo-pic">
-                            <img
-                              class="w-100 d-none d-md-block"
-                              src="./src/web/video/video2.png"
-                              alt=""
-                            />
-                            <img
-                              class="w-100 d-block d-md-none"
-                              src="./src/phone/video/video2.png"
-                              alt=""
-                            />
-                          </div>
-                          <article class="section-vieo-article">
-                            <h3>標 題</h3>
-                            <p>
-                              內文待補內文待補內文待補內文待補內文待補內文待補內文
-                              待補內文待補內文待補內文待補內文待補內文待補內文待補
-                              內文待補
-                            </p>
-                            <span>更新日期：2023 / 09 / 14</span>
-                          </article>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </section>
-                <!-- .......分頁區塊........ -->
-                <nav class="page-control-section d-flex justify-content-center">
-                  <ol class="page-control-box d-flex align-items-center">
-                    <button class="page-arrow"></button>
-                    <li><a href="#">1</a></li>
-                    <li><a href="#">2</a></li>
-                    <li><a href="#">3</a></li>
-                    <li><a href="#">4</a></li>
-                    <li><a href="#">5</a></li>
-                    <button class="page-arrow"></button>
-                  </ol>
-                </nav>
-                <!-- 分頁-end -->
-              </div>
+        <div class="shopping-cart-Big-title-body">
+          <p>
+            歡迎您瀏覽本網站,如果您有任何疑問,或對產品有興趣,請填寫下列聯絡表單,我們將盡快與您聯絡。
+          </p>
+        </div>
+        <!-- 以上購物車 -->
+        <section class="shop-contact-us-main contact-us-bg">
+          <div class="shop-contact-us">
+            <div class="shop-contact-us-title w-100">
+              <p>標註<span>*</span>為必填</p>
             </div>
+            <form action="">
+              <div class="shop-contact-item">
+                <label for="myname"
+                  >姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名<span>*</span></label
+                >
+                <input
+                  type="text"
+                  class="w-100 mb-md-3 mb-2 form-control-item border-0"
+                  id="myname"
+                />
+              </div>
+              <div class="shop-contact-item">
+                <label for="cart-phone"
+                  >電&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;話<span>*</span></label
+                >
+                <input
+                  class="w-100 form-control-item border-0"
+                  type="tel"
+                  id="cart-phone"
+                />
+              </div>
+              <div class="shop-contact-item">
+                <label for="cart-tel">傳&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;真</label>
+                <input
+                  class="form-control-item w-100"
+                  style="border: none"
+                  id="cart-tel"
+                />
+              </div>
+
+              <div class="shop-contact-item">
+                <label for="mail-cart">電子信箱<span>*</span></label>
+                <input
+                  class="w-100 form-control-item border-0"
+                  type="email"
+                  id="mail-cart"
+                />
+              </div>
+              <div class="shop-contact-item">
+                <label class="" for="message-cart"
+                  >留言內容<span>*</span></label
+                >
+                <textarea
+                  class="w-100 mb-5 mb-md-5 form-textarea form-control-item border-0"
+                  name=""
+                  id="message-cart"
+                  rows="10"
+                ></textarea>
+              </div>
+              <button class="submit-btn w-100">
+                <a href="#">&nbsp;送出</a>
+              </button>
+            </form>
           </div>
-        </div>
+        </section>
       </section>
       <!-- footer -->
       <footer class="footer-main d-flex flex-wrap">
@@ -900,5 +792,29 @@
     ></script>
     <!-- jquery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <!-- owl -->
+    <script src="./js/owl.carousel.min.js"></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        navText: [
+          "<img src='./src/web/icon/about_arrow_1.svg'>",
+          "<img src='./src/web/icon/about_arrow_2.svg'>",
+        ],
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 1,
+          },
+          1000: {
+            items: 1,
+          },
+        },
+      });
+    </script>
   </body>
 </html>
