@@ -199,18 +199,29 @@
   border-radius: 5px;
   margin-top: 24px;
 }
-
+.submit-icon {
+  width: 37px;
+  height: 37px;
+  top: 0;
+  left: 50%;
+  transform: translate(-41%, 35%) scale(0);
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+.submit-icon img {
+  width: 100%;
+}
 .submit-btn {
   border: none;
   background-color: #dc3545;
   height: 60px;
-  transition: 0.3s;
+  transition: 0.3s ease-in-out;
 }
-.submit-btn:hover {
-  background-color: #8e7f73;
+.submit-btn:hover .submit-icon {
+  transform: translate(-41%, 35%) scale(1);
 }
 .submit-btn:hover a {
-  color: #fff;
+  opacity: 0;
 }
 .submit-btn a {
   text-decoration: none;
@@ -218,7 +229,11 @@
   font-size: 22px;
   margin: auto;
   display: block;
-  letter-spacing: 6em;
+  letter-spacing: 2em;
+  opacity: 1;
+}
+.submit-btn-contact {
+  background-color: #7fbf6d;
 }
 
 .contact-us-bg {

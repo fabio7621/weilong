@@ -3,11 +3,20 @@
   /* font-family: "Libre Baskerville", serif; */
   /* font-family: "Montserrat", sans-serif; */
   font-family: "Noto Sans TC", sans-serif;
+  position: relative;
 }
 .navbar-toggler {
   border: none;
 }
-
+.main-header {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  background-color: #fff;
+  opacity: 0.9;
+}
 /* hb.icon */
 .menu-button-container {
   display: none;
@@ -90,7 +99,9 @@
 .logopic {
   width: 17.3056vw;
   margin-left: 5vw;
+  transition: width 0.5s ease;
 }
+
 .logopic img {
   width: 100%;
   vertical-align: top;
@@ -310,8 +321,7 @@
 }
 /* about-end */
 /* moreBTN-star */
-.section-news-more {
-}
+
 .more-btn {
   margin-left: auto;
   width: 488px;

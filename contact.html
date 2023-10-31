@@ -35,7 +35,7 @@
     <!-- <link rel="stylesheet" href="./stylesheet/123/product.css" /> -->
     <!-- JS -->
     <script src="./js/menu.js"></script>
-    <script src="./js/scroll-top.js"></script>
+    <!-- <script src="./js/scroll.js"></script> -->
   </head>
 
   <body>
@@ -44,7 +44,11 @@
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
           <div class="container-fluid">
             <h1>
-              <a class="navbar-brand d-block logopic" href="./index.html">
+              <a
+                class="navbar-brand d-block logopic"
+                href="./index.html "
+                id="logo"
+              >
                 <img src="./src/web/icon/logo.svg" alt="葳龍logo" />
               </a>
             </h1>
@@ -607,7 +611,7 @@
           <div
             class="shopping-cart-Big-title-pic d-none d-md-block big-title-pic-p"
           ></div>
-          <h3>詢 / 價 / 車</h3>
+          <h3>聯 / 絡 / 我 / 們</h3>
           <div
             class="shopping-cart-Big-title-pic d-none d-md-block big-title-pic-n"
           ></div>
@@ -672,7 +676,12 @@
                   rows="10"
                 ></textarea>
               </div>
-              <button class="submit-btn w-100">
+              <button
+                class="submit-btn submit-btn-contact position-relative w-100"
+              >
+                <div class="submit-icon position-absolute">
+                  <img src="./src/web/icon/send.svg" alt="send" />
+                </div>
                 <a href="#">&nbsp;送出</a>
               </button>
             </form>
@@ -792,29 +801,5 @@
     ></script>
     <!-- jquery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
-    <!-- owl -->
-    <script src="./js/owl.carousel.min.js"></script>
-    <script>
-      $(".owl-carousel").owlCarousel({
-        loop: true,
-        margin: 10,
-        nav: true,
-        navText: [
-          "<img src='./src/web/icon/about_arrow_1.svg'>",
-          "<img src='./src/web/icon/about_arrow_2.svg'>",
-        ],
-        responsive: {
-          0: {
-            items: 1,
-          },
-          600: {
-            items: 1,
-          },
-          1000: {
-            items: 1,
-          },
-        },
-      });
-    </script>
   </body>
 </html>
