@@ -29,7 +29,6 @@
     <link rel="stylesheet" href="./stylesheet/reset.css" />
     <link rel="stylesheet" href="./stylesheet/main.css" />
     <link rel="stylesheet" href="./stylesheet/about.css" />
-    <link rel="stylesheet" href="./stylesheet/videoPage.css" />
     <script src="./js/menu.js"></script>
     <script src="./js/scroll-top.js"></script>
   </head>
@@ -643,17 +642,17 @@
       <div class="section-banner">
         <img
           class="w-100 d-none d-md-block"
-          src="./src/web/video/video_banner.png"
+          src="./src/web/news/news_banner.png"
           alt="banner"
         />
         <img
           class="w-100 d-block d-md-none"
-          src="./src/phone/video/video_banner.png"
+          src="./src/phone/news/news_banner.png"
           alt="banner"
         />
       </div>
 
-      <section class="section-product section-video-page w-100 mb-3">
+      <section class="section-product section-news-page w-100 mb-3">
         <!-- bread-list -->
         <div class="section-main-bread">
           <ol class="bread-list d-flex">
@@ -662,201 +661,137 @@
             </li>
             <li>/</li>
             <li>
-              <a href class="text-decoration-none" href="#">影音瀏覽</a>
+              <a href class="text-decoration-none" href="#">SITEMAP</a>
             </li>
           </ol>
         </div>
         <div class="section-product-main">
           <div class="container-fluid">
             <div class="row">
-              <div class="col-12 col-md-12 col-lg-3 p-0">
-                <div class="menu-control">
-                  <!-- 手機板選單 -->
-                  <!-- 下面這段標題會隨頁更換 -->
-                  <h2 class="d-block d-md-none">影音瀏覽</h2>
-                  <div
-                    class="accordion menu-list-phone accordion-flush w-100 d-block d-lg-none"
-                    id="rwd-main-menu"
-                  >
-                    <div class="accordion-item phone-list-body">
-                      <h2 class="accordion-header">
-                        <button
-                          class="accordion-button collapsed menu-list-item"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapseMain"
-                          aria-expanded="false"
-                          aria-controls="flush-collapseMain"
-                        >
-                          <p>分類目錄</p>
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapseMain"
-                        class="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample"
+              <section class="section-vieo-main">
+                <div class="row">
+                  <div class="col-12 col-md-3 mb-5 p-0">
+                    <div class="section-news-item">
+                      <a
+                        class="w-100 d-block text-decoration-none"
+                        href="./about.html"
                       >
-                        <div class="menu-list-body accordion-body w-100 p-0">
-                          <div
-                            class="accordion rounded-0 border-0"
-                            id="accordionExample "
-                          >
-                            <!-- 1 -->
-                            <div class="accordion-item">
-                              <button
-                                class="accordion-button collapsed menu-list-item"
-                                type="button"
-                              >
-                                <a href="#">消息分類</a>
-                              </button>
-                            </div>
-
-                            <!-- 2 -->
-                            <div class="accordion-item">
-                              <button
-                                class="accordion-button collapsed menu-list-item"
-                                type="button"
-                              >
-                                <a href="#">消息分類</a>
-                              </button>
-                            </div>
-                            <!-- 3 -->
-                            <div class="accordion-item">
-                              <button
-                                class="accordion-button collapsed menu-list-item"
-                                type="button"
-                              >
-                                <a href="#">消息分類</a>
-                              </button>
-                            </div>
-                          </div>
+                        <div
+                          class="section-news-date d-flex w-100 align-bottom"
+                        >
+                          <p class="section-news-day">關於葳龍</p>
                         </div>
-                      </div>
+                        <div
+                          class="section-news-date-content w-100 d-flex flex-column"
+                        >
+                          <a href="./about.html">經營理念</a>
+                          <a href="./gmp-factory.html">千坪GMP認證工廠</a>
+                        </div>
+                      </a>
                     </div>
                   </div>
-                  <!-- 桌機板選單 -->
-                  <div class="menu-list d-none w-100 d-md-none d-lg-block">
-                    <div>
-                      <div class="accordion-title d-none d-md-flex">
-                        <div class="title-pic">
-                          <img
-                            class="w-100"
-                            src="./src/web/video/pic_1.svg"
-                            alt=""
-                          />
+                  <div class="col-12 col-md-3 mb-5 p-0">
+                    <div class="section-news-item">
+                      <a class="w-100 d-block text-decoration-none" href="#">
+                        <div
+                          class="section-news-date d-flex w-100 align-bottom"
+                        >
+                          <p class="section-news-day">最新消息</p>
                         </div>
-                        <h2>影音瀏覽</h2>
-                      </div>
-                      <!-- 1 -->
-                      <div class="accordion-item">
-                        <button
-                          class="accordion-button collapsed menu-list-item p-0"
-                          type="button"
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-3 mb-5 p-0">
+                    <div class="section-news-item">
+                      <a
+                        class="w-100 d-block text-decoration-none"
+                        href="./oem-product.html"
+                      >
+                        <div
+                          class="section-news-date d-flex w-100 align-bottom"
                         >
-                          <a href="#">消息分類</a>
-                        </button>
-                      </div>
-                      <!-- 2 -->
-                      <div class="accordion-item">
-                        <button
-                          class="accordion-button collapsed menu-list-item p-0"
-                          type="button"
+                          <p class="section-news-day">代工項目</p>
+                        </div>
+                        <div
+                          class="section-news-date-content w-100 d-flex flex-column"
                         >
-                          <a href="#">消息分類</a>
-                        </button>
-                      </div>
-                      <!-- 3 -->
-                      <div class="accordion-item">
-                        <button
-                          class="accordion-button collapsed p-0 menu-list-item"
-                          type="button"
+                          <a href="./oem-product.html">專業沙龍髮品</a>
+                          <a href="./oem-product.html">美容保養品</a>
+                          <a href="./oem-product.html">美體/清潔用品</a>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-3 mb-5 p-0">
+                    <div class="section-news-item">
+                      <a
+                        class="w-100 d-block text-decoration-none"
+                        href="./product.html"
+                      >
+                        <div
+                          class="section-news-date d-flex w-100 align-bottom"
                         >
-                          <a href="#">消息分類</a>
-                        </button>
-                      </div>
+                          <p class="section-news-day">產品介紹</p>
+                        </div>
+                        <div
+                          class="section-news-date-content w-100 d-flex flex-column"
+                        >
+                          <a href="./product.html"> 電商微商品 </a>
+                          <a href="./product.html"> 本季新品 </a>
+                          <a href="./product.html"> MIRO米蘿 </a>
+                          <a href="./product.html"> ART CUT </a>
+                          <a href="./product.html"> JISME集世美 </a>
+                          <a href="./product.html"> MIDI美蒂 </a>
+                          <a href="./product.html"> TD品牌 </a>
+                          <a href="./product.html"> 保健食品 </a>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-3 mb-5 p-0">
+                    <div class="section-news-item">
+                      <a
+                        class="w-100 d-block text-decoration-none"
+                        href="./edm.html"
+                      >
+                        <div
+                          class="section-news-date d-flex w-100 align-bottom"
+                        >
+                          <p class="section-news-day">EDM</p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-3 mb-5 p-0">
+                    <div class="section-news-item">
+                      <a
+                        class="w-100 d-block text-decoration-none"
+                        href="./video.html"
+                      >
+                        <div
+                          class="section-news-date d-flex w-100 align-bottom"
+                        >
+                          <p class="section-news-day">影音瀏覽</p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-3 mb-5 p-0">
+                    <div class="section-news-item">
+                      <a
+                        class="w-100 d-block text-decoration-none"
+                        href="./contact.html"
+                      >
+                        <div
+                          class="section-news-date d-flex w-100 align-bottom"
+                        >
+                          <p class="section-news-day">聯絡我們</p>
+                        </div>
+                      </a>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="col-12 col-md-12 col-lg-9">
-                <section class="section-vieo-main">
-                  <div class="row">
-                    <div class="col-12 col-md-6">
-                      <div class="section-vieo-item">
-                        <a
-                          class="d-block w-100 text-decoration-none"
-                          href="./news-inner.html"
-                        >
-                          <div class="section-vieo-pic">
-                            <img
-                              class="w-100 d-none d-md-block"
-                              src="./src/web/video/video1.png"
-                              alt=""
-                            />
-                            <img
-                              class="w-100 d-block d-md-none"
-                              src="./src/phone/video/video1.png"
-                              alt=""
-                            />
-                          </div>
-                          <article class="section-vieo-article">
-                            <h3>標 題</h3>
-                            <p>
-                              內文待補內文待補內文待補內文待補內文待補內文待補內文
-                              待補內文待補內文待補內文待補內文待補內文待補內文待補
-                              內文待補
-                            </p>
-                            <span>更新日期：2023 / 09 / 14</span>
-                          </article>
-                        </a>
-                      </div>
-                    </div>
-                    <div class="col-12 col-md-6">
-                      <div class="section-vieo-item">
-                        <a
-                          class="d-block w-100 text-decoration-none"
-                          href="./news-inner.html"
-                        >
-                          <div class="section-vieo-pic">
-                            <img
-                              class="w-100 d-none d-md-block"
-                              src="./src/web/video/video2.png"
-                              alt=""
-                            />
-                            <img
-                              class="w-100 d-block d-md-none"
-                              src="./src/phone/video/video2.png"
-                              alt=""
-                            />
-                          </div>
-                          <article class="section-vieo-article">
-                            <h3>標 題</h3>
-                            <p>
-                              內文待補內文待補內文待補內文待補內文待補內文待補內文
-                              待補內文待補內文待補內文待補內文待補內文待補內文待補
-                              內文待補
-                            </p>
-                            <span>更新日期：2023 / 09 / 14</span>
-                          </article>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </section>
-                <!-- .......分頁區塊........ -->
-                <nav class="page-control-section d-flex justify-content-center">
-                  <ol class="page-control-box d-flex align-items-center">
-                    <button class="page-arrow"></button>
-                    <li><a href="#">1</a></li>
-                    <li><a href="#">2</a></li>
-                    <li><a href="#">3</a></li>
-                    <li><a href="#">4</a></li>
-                    <li><a href="#">5</a></li>
-                    <button class="page-arrow"></button>
-                  </ol>
-                </nav>
-                <!-- 分頁-end -->
-              </div>
+              </section>
             </div>
           </div>
         </div>

@@ -762,6 +762,15 @@
   right: 17px;
   font-size: 26px;
 }
+/* siteMAP */
+.section-news-date-content a {
+  text-decoration: none;
+  color: #432004;
+  font-size: 20px;
+  letter-spacing: 1.2px;
+  line-height: 1.6;
+  margin-top: 0.5em;
+}
 @media (width<992px) {
   .swiper-pagination {
     transform: translateY(-35px);
