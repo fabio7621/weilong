@@ -738,7 +738,7 @@
     transform: translateY(-35px);
   }
   .logopic {
-    width: 220px;
+    min-width: 220px;
     margin-left: 25px;
   }
   .navbar-menu-phone {
@@ -1037,5 +1037,14 @@
     text-decoration: none;
     font-size: 18px;
     color: #9e958e;
+  }
+  /* GOTOP */
+  .scroll-box {
+    top: 75vh;
+    right: 12.91px;
+  }
+  .scroll-item {
+    width: 45px;
+    margin-bottom: 10px;
   }
 }
