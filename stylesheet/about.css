@@ -62,6 +62,13 @@
   color: #432004;
   text-indent: 2em;
   font-weight: 600;
+  transition: 0.3s ease;
+  transform: translateX(0px);
+  opacity: 1;
+}
+.menu-list-item:hover a {
+  transform: translateX(10px);
+  opacity: 0.5;
 }
 
 .menu-list-item {
