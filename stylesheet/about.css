@@ -27,6 +27,11 @@
   width: 27.35px;
   margin-right: 30px;
 }
+.title-video-icon {
+  width: 48.01px;
+  height: 48.01px;
+  margin-right: 30px;
+}
 .title-product-pic {
   width: 21px;
   margin-right: 32px;
@@ -118,8 +123,8 @@
 }
 .owl-theme .owl-nav {
   position: absolute;
-  top: -130px;
-  right: 85px;
+  top: -6.74vw;
+  right: 4.41vw;
 }
 .owl-prev,
 .owl-next {
@@ -252,7 +257,7 @@
     text-decoration: none;
     font-size: 25px;
     color: #432004;
-    text-indent: 2em;
+    text-indent: 0em;
     font-weight: 600;
     margin: auto;
   }
@@ -339,5 +344,11 @@
   }
   .section-news-date {
     flex-direction: column;
+  }
+  .title-pic {
+    margin-right: 16.65px;
+  }
+  .section-title-item {
+    margin-top: 80px;
   }
 }

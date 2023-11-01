@@ -3,12 +3,12 @@
   width: 100%;
 }
 .menu-list-body > ul > li > a {
-  font-size: 20px;
+  font-size: 21px;
   display: block;
   color: #432004;
   text-decoration: none;
   letter-spacing: 3.8px;
-  font-weight: 500;
+  font-weight: 600;
   padding-left: 2em;
 }
 .menu-list-body ul li + li {
