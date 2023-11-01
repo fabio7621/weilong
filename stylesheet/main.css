@@ -733,6 +733,35 @@
 .scroll-item .scroll-item img {
   width: 100%;
 }
+/* 跳窗 */
+.overlay-box {
+  width: 367px;
+  height: 257px;
+  background-color: #01514c;
+  padding-top: 35px;
+  padding-bottom: 36px;
+}
+.overlay-box-pic {
+  width: 60px;
+  margin-bottom: 18px;
+}
+.overlay-box p {
+  font-size: 24px;
+  letter-spacing: 0.72px;
+  line-height: 1.6;
+  margin-bottom: 0.8em;
+  color: #fff;
+  text-align: center;
+}
+.overlay-box a {
+  font-size: 20px;
+  color: #fff;
+}
+.overlay-box-x {
+  top: 17px;
+  right: 17px;
+  font-size: 26px;
+}
 @media (width<992px) {
   .swiper-pagination {
     transform: translateY(-35px);

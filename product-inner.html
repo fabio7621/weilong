@@ -761,19 +761,19 @@
             </li>
             <li>/</li>
             <li>
-              <a href class="text-decoration-none" href="#">代工項目</a>
+              <a href class="text-decoration-none" href="#">產品介紹</a>
             </li>
             <li>/</li>
             <li>
-              <a href class="text-decoration-none" href="#">專業沙龍髮品</a>
+              <a href class="text-decoration-none" href="#">電商微商品</a>
             </li>
             <li>/</li>
             <li>
-              <a href class="text-decoration-none" href="#">洗髮</a>
+              <a href class="text-decoration-none" href="#">美體系列</a>
             </li>
             <li>/</li>
             <li>
-              <a href class="text-decoration-none" href="#">一般髮質專用</a>
+              <a href class="text-decoration-none" href="#">美體系列商品1</a>
             </li>
           </ol>
         </div>
@@ -1189,7 +1189,7 @@
                     <!-- 加入尋價車 -->
                     <div class="col-12 col-md-6 d-flex flex-column">
                       <div class="pro-inner-txt">
-                        <h3>一般髮質專用</h3>
+                        <h3>美體系列商品1</h3>
                         <p>
                           內文待補內文待補內文待補內文待補內文待補內文待補內文待補
                           內文待補內文待補內文待補內文待補
@@ -1235,7 +1235,7 @@
                       <button
                         class="addPrice"
                         data-bs-toggle="modal"
-                        data-bs-target="#staticBackdrop"
+                        data-bs-target="#cartModal"
                         type="submit"
                       >
                         <a href="#">
@@ -1264,7 +1264,7 @@
                             aria-controls="home-tab-pane"
                             aria-selected="true"
                           >
-                            產品說明
+                            產品敘述
                           </button>
                         </li>
                         <li
@@ -1337,7 +1337,7 @@
                             class="section-news-more w-100 d-flex flex-column"
                           >
                             <button
-                              href="./news.html"
+                              href="./product.html"
                               type="submit"
                               class="more-btn newinner-middle"
                             >
@@ -1460,6 +1460,38 @@
           </div>
         </div>
       </footer>
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="cartModal"
+        tabindex="-1"
+        aria-labelledby="cartModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div
+            class="overlay-box d-flex justify-content-center align-items-center position-relative flex-column position-relative"
+          >
+            <span
+              class="material-symbols-outlined position-absolute overlay-box-x"
+              style="color: #fff"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              close
+            </span>
+            <div class="overlay-box-pic">
+              <img
+                class="w-100"
+                src="./src/web/icon/shopcart_2.svg"
+                alt="pic"
+              />
+            </div>
+            <p>產品名稱<br />已加入詢價車</p>
+            <a class="text-center" href="#">請點選這裡前往詢價車</a>
+          </div>
+        </div>
+      </div>
       <!-- GOTOP -->
       <div class="scroll-box position-fixed" id="scrollBtn">
         <a href="#" class="scroll-item">
