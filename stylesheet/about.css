@@ -55,7 +55,6 @@
   margin: auto;
   padding-top: 100px;
   padding-bottom: 30px;
-  overflow: hidden;
 }
 .phone-list-body {
   background-color: transparent;
@@ -324,7 +323,7 @@
   }
 
   .page-arrow {
-    width: 103px;
+    width: 69px;
     height: 42px;
   }
   /* news-inner */
