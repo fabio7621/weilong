@@ -121,7 +121,7 @@
   margin-bottom: 60px;
 }
 .owl-carousel .owl-item img {
-  height: 100%;
+  width: 100%;
 }
 .owl-dots {
   display: none;
@@ -339,8 +339,8 @@
   }
 
   .page-arrow {
-    width: 69px;
-    height: 42px;
+    width: 64px;
+    height: 26px;
   }
   /* news-inner */
   .newinner-middle {
