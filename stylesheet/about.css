@@ -88,6 +88,7 @@
   margin-bottom: 40px;
   align-items: center;
 }
+
 .section-title-item h3 {
   font-size: 35px;
   font-weight: 800;
@@ -278,16 +279,26 @@
     color: #432004;
     line-height: 1.8;
     letter-spacing: 1px;
-    margin-bottom: 80px;
+    margin-bottom: 1em;
   }
   .section-title-item h3 {
     font-size: 35px;
     margin-right: 0px;
     margin: auto;
+    text-align: center;
+    line-height: 1.2;
   }
   .article-pic-80 {
     width: 80%;
     margin: auto;
+  }
+  .section-article {
+    padding-bottom: 0px;
+  }
+  /* owl */
+  .owl-carousel {
+    height: 320px;
+    padding-bottom: 50px;
   }
   .owl-carousel .owl-item img {
     width: 80%;
@@ -304,7 +315,7 @@
     width: 82.60869%;
     margin: auto;
     padding-top: 44px;
-    padding-bottom: 30px;
+    padding-bottom: 143px;
   }
   .section-vieo-main {
     padding-top: 80px;
@@ -346,13 +357,14 @@
     margin-top: 1em;
     margin-left: 0;
   }
-  .section-news-date {
-    flex-direction: column;
-  }
+
   .title-pic {
     margin-right: 16.65px;
   }
-  .section-title-item {
-    margin-top: 80px;
+  .section-title-item + .section-title-item {
+    margin-top: 50px;
+  }
+  .owl-carousel.owl-loaded {
+    margin-bottom: 50px;
   }
 }
