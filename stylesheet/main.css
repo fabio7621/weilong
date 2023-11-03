@@ -164,7 +164,7 @@
   font-size: 1.042vw;
   text-decoration: none;
   color: #1d1d1d;
-  padding: 45.5px 0 51.5px;
+  /* padding: 45.5px 0 51.5px; */
   margin: 0 1.7vw;
 }
 .pc-nav-item > a:hover {
@@ -552,7 +552,7 @@
   margin-top: -50px;
 }
 .section-contact-title {
-  margin-top: 181px;
+  margin-top: 173px;
   margin-left: 145px;
   margin-bottom: 147px;
 }
